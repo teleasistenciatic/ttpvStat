@@ -1,0 +1,62 @@
+>2015-05-27_12-32-04;app;pantalla de carga
+>2015-05-27_12-32-07;app;pantalla de tarificacion extra
+>2015-05-27_12-32-10;app;iniciada IMEI:355179066263149
+>2015-05-27_12-32-10;caidas;servicio iniciado
+>2015-05-27_12-32-10;zona segura;servicio no iniciado
+>2015-05-27_12-32-10;bateria;reciver activo
+>2015-05-27_12-32-10;bateria;monitor iniciado
+>2015-05-27_12-32-10;bateria;nivel: 88 estado: 2
+>2015-05-27_12-32-20;boton;alerta pulsado
+>2015-05-27_12-32-23;boton;alerta pulsado
+>2015-05-27_12-32-23;boton;alerta pulsado cuenta atras cancelada
+>2015-05-27_12-32-24;boton;alerta pulsado
+>2015-05-27_12-32-28;aviso;alerta
+>2015-05-27_12-32-28;SMS;enviado:TELEASISTENCI@TIC+: Andres  Galvez Marquez  genera aviso 27/05/15:12:32:28 (SMS:74)
+>2015-05-27_12-32-28;aviso;alerta
+>2015-05-27_12-32-28;SMS;envio error
+>2015-05-27_12-32-28;aviso;alerta
+>2015-05-27_12-32-28;SMS;envio error
+>2015-05-27_12-32-29;boton;llamada pulsado
+>2015-05-27_12-32-29;boton;llamada llamando contacto
+>2015-05-27_12-32-46;boton;contactos pulsado
+>2015-05-27_12-32-46;configuracion;personas contacto
+>2015-05-27_12-32-50;menu;boton configuracion pulsado
+>2015-05-27_12-32-50;configuracion;opciones usuario
+>2015-05-27_12-32-55;menu;boton salir pulsado
+>2015-05-27_12-32-55;app;cerrada
+>2015-05-27_12-33-01;app;pantalla de carga
+>2015-05-27_12-33-04;app;pantalla de tarificacion extra
+>2015-05-27_12-33-07;app;iniciada IMEI:355179066263149
+>2015-05-27_12-33-07;caidas;servicio iniciado
+>2015-05-27_12-33-07;zona segura;servicio no iniciado
+>2015-05-27_12-33-07;bateria;reciver activo
+>2015-05-27_12-33-07;bateria;monitor iniciado
+>2015-05-27_12-33-15;boton;tranquilidad pulsado
+>2015-05-27_12-33-15;aviso;tranquilidad
+>2015-05-27_12-33-15;SMS;enviado:TELEASISTENCI@TIC+: Andres  Galvez Marquez  comunica que se encuentra bien a las 27/05/15:12:33:15 (SMS:98)
+>2015-05-27_12-33-15;aviso;tranquilidad
+>2015-05-27_12-33-15;SMS;envio error
+>2015-05-27_12-33-15;aviso;tranquilidad
+>2015-05-27_12-33-15;SMS;envio error
+>2015-05-27_12-33-20;boton;volver a casa pulsado
+>2015-05-27_12-33-20;boton;volver a casa con datos: 37.89819988756578, -4.724549576640129
+>2015-05-27_12-33-31;boton;configuracion pulsado
+>2015-05-27_12-33-31;configuracion;opciones usuario
+>2015-05-27_12-33-33;configuracion;zona segura
+>2015-05-27_12-33-35;zona segura;zona segura establecida: 37.89819988756578,-4.724549576640129,30.0
+>2015-05-27_12-33-39;zona segura;zona segura establecida: 37.898337,-4.727938,30.0
+>2015-05-27_12-33-52;configuracion;personas contacto
+>2015-05-27_12-33-59;appSharedPreferences;contactos creados : Juan Ferres-630 39 11 46_Mi Sony Xperia-686 87 07 55_-
+>2015-05-27_12-34-04;configuracion;bateria
+>2015-05-27_12-34-07;bateria;reciver activo
+>2015-05-27_12-34-07;bateria;reciver activo
+>2015-05-27_12-34-15;boton;modo ducha pulsado
+>2015-05-27_12-34-16;modo ducha;iniciado con minutos : 15
+>2015-05-27_12-34-55;aviso;caida
+>2015-05-27_12-34-55;aviso;caida
+>2015-05-27_12-34-55;aviso;caida
+>2015-05-27_12-35-32;boton;configuracion pulsado
+>2015-05-27_12-35-32;configuracion;opciones usuario
+>2015-05-27_12-35-38;configuracion;zona segura
+>2015-05-27_12-35-50;menu;boton salir pulsado
+>2015-05-27_12-35-50;app;cerrada

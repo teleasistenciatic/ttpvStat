@@ -1,0 +1,39 @@
+>2015-05-28_09-15-32;app;pantalla de carga
+>2015-05-28_09-15-35;app;iniciada IMEI:356570064378294
+>2015-05-28_09-15-35;caidas;servicio iniciado
+>2015-05-28_09-15-35;zona segura;servicio no iniciado
+>2015-05-28_09-15-35;bateria;reciver activo
+>2015-05-28_09-15-35;bateria;monitor iniciado
+>2015-05-28_09-15-35;bateria;nivel: 80 estado: Bateria en carga... tasa de refresco: 6
+>2015-05-28_09-15-43;boton;configuracion pulsado
+>2015-05-28_09-15-43;configuracion;opciones usuario
+>2015-05-28_09-15-45;configuracion;bateria
+>2015-05-28_09-16-07;bateria;reciver activo
+>2015-05-28_09-16-07;bateria;reciver activo
+>2015-05-28_09-16-07;bateria;nivel: 80 estado: Bateria en carga... tasa de refresco: 0
+>2015-05-28_09-16-09;bateria;nivel: 80 estado: Bateria en carga... tasa de refresco: 0
+>2015-05-28_09-16-19;bateria;nivel: 80 estado: Bateria en carga... tasa de refresco: 0
+>2015-05-28_09-16-29;bateria;nivel: 80 estado: Bateria en carga... tasa de refresco: 0
+>2015-05-28_09-16-36;boton;modo ducha pulsado
+>2015-05-28_09-16-37;modo ducha;iniciado con minutos : 45
+>2015-05-28_09-16-39;bateria;nivel: 80 estado: Bateria en carga... tasa de refresco: 0
+>2015-05-28_09-16-41;boton;contactos pulsado
+>2015-05-28_09-16-41;configuracion;personas contacto
+>2015-05-28_09-16-42;modo ducha;iniciado con minutos : 15
+>2015-05-28_09-16-47;aviso;correr
+>2015-05-28_09-16-49;bateria;nivel: 80 estado: Bateria en carga... tasa de refresco: 0
+>2015-05-28_09-16-50;bateria;notificacion bateria baja
+>2015-05-28_09-16-53;boton;alerta pulsado
+>2015-05-28_09-16-53;boton;alerta pulsado
+>2015-05-28_09-16-53;boton;alerta pulsado cuenta atras cancelada
+>2015-05-28_09-16-53;boton;alerta pulsado
+>2015-05-28_09-16-53;boton;alerta pulsado cuenta atras cancelada
+>2015-05-28_09-16-53;boton;alerta pulsado
+>2015-05-28_09-16-53;boton;alerta pulsado cuenta atras cancelada
+>2015-05-28_09-16-53;boton;alerta pulsado
+>2015-05-28_09-16-53;boton;alerta pulsado cuenta atras cancelada
+>2015-05-28_09-16-54;boton;alerta pulsado
+>2015-05-28_09-16-54;boton;alerta pulsado cuenta atras cancelada
+>2015-05-28_09-16-54;boton;alerta pulsado
+>2015-05-28_09-16-54;boton;alerta pulsado cuenta atras cancelada
+>2015-05-28_09-16-58;app;cerrada

@@ -1,0 +1,28 @@
+>2015-05-27_12-37-35;app;pantalla de carga
+>2015-05-27_12-37-39;app;pantalla de tarificacion extra
+>2015-05-27_12-37-46;app;iniciada IMEI:355179066263149
+>2015-05-27_12-37-46;caidas;servicio iniciado
+>2015-05-27_12-37-46;zona segura;servicio no iniciado
+>2015-05-27_12-37-46;bateria;reciver activo
+>2015-05-27_12-37-46;bateria;monitor iniciado
+>2015-05-27_12-37-46;bateria;nivel: 87 estado: 3
+>2015-05-27_12-37-48;boton;tranquilidad pulsado
+>2015-05-27_12-37-48;aviso;tranquilidad
+>2015-05-27_12-37-48;SMS;enviado: Andres  Galvez Marquez  comunica que se encuentra bien a las 27/05/15:12:37:48 en posicion ( https://maps.google.com/?q=37.8985533,-4.7230718 ) (SMS:163)
+>2015-05-27_12-37-48;aviso;tranquilidad
+>2015-05-27_12-37-48;SMS;enviado: Andres  Galvez Marquez  comunica que se encuentra bien a las 27/05/15:12:37:48 en posicion ( https://maps.google.com/?q=37.8985533,-4.7230718 ) (SMS:163)
+>2015-05-27_12-37-48;aviso;tranquilidad
+>2015-05-27_12-37-48;SMS;envio error
+>2015-05-27_12-37-50;boton;alerta pulsado
+>2015-05-27_12-37-51;boton;alerta pulsado
+>2015-05-27_12-37-51;boton;alerta pulsado cuenta atras cancelada
+>2015-05-27_12-37-52;boton;alerta pulsado
+>2015-05-27_12-37-52;boton;alerta pulsado cuenta atras cancelada
+>2015-05-27_12-37-58;boton;configuracion pulsado
+>2015-05-27_12-37-58;configuracion;opciones usuario
+>2015-05-27_12-38-00;configuracion;zona segura
+>2015-05-27_12-38-05;boton;volver a casa pulsado
+>2015-05-27_12-38-05;boton;volver a casa con datos: 37.898337, -4.727938
+>2015-05-27_12-38-17;boton;configuracion pulsado
+>2015-05-27_12-38-17;configuracion;opciones usuario
+>2015-05-27_12-38-19;configuracion;zona segura

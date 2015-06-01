@@ -36,31 +36,7 @@ foreach($tipos as $k => $valor){
 	$texto[] = $objeto;
 }
 
-/*
-$texto = array();
 
-$objeto = array();
-$objeto["country"]="USA";
-$objeto["visits"]=4217;
-
-$objeto2 = array();
-$objeto2["country"]="China";
-$objeto2["visits"]="1882";
-
-$objeto3 = array();
-$objeto3["country"]="Germany";
-$objeto3["visits"]="1322";
-
-$objeto4 = array();
-$objeto4["country"]="UK";
-$objeto4["visits"]="3453";
-
-
-
-$texto[] = $objeto;
-$texto[] = $objeto2;
-$texto[] = $objeto3;
-$texto[] = $objeto4;*/
 
 
 

@@ -1,0 +1,6 @@
+Esta web tiene como objetivo el mostrar datos obtenidos a partir del tratamiento de ficheros.
+
+En la carpeta "archivos" se deben incluir los archivos obtenidos de los moviles.
+
+El formato que se acepta es el que genera la app teleasistencia@tic+ .
+

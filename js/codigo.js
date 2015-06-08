@@ -25,7 +25,7 @@
 	});
 	
 	$.ajax({ data:{"accion":"mododucha"},
-		url:"http://10.0.0.71/estadisticas/php/controlador.php",	
+		url:"./php/controlador.php",	
 		type: "get",
 		dataType:"json"
 	}).then( function(data){
@@ -49,7 +49,7 @@
 	});
 	
 	$.ajax({ data:{"accion":"botonrojo"},
-		url:"http://10.0.0.71/estadisticas/php/controlador.php",		
+		url:"./php/controlador.php",		
 		type: "get",
 		dataType:"json"
 	}).then( function(data){
@@ -57,7 +57,7 @@
 	});
 	
 	$.ajax({ data:{"accion":"botontranquilidad"},
-		url:"http://10.0.0.71/estadisticas/php/controlador.php",		
+		url:"./php/controlador.php",		
 		type: "get",
 		dataType:"json"
 	}).then( function(data){
@@ -65,22 +65,30 @@
 	});
 	
 	$.ajax({ data:{"accion":"bateriabaja"},
-		url:"http://10.0.0.71/estadisticas/php/controlador.php",		
+		url:"./php/controlador.php",		
 		type: "get",
 		dataType:"json"
 	}).then( function(data){
 		graficoBateriaBaja(data);
 	});
 	
+	$.ajax({ data:{"accion":"zonasegura"},
+		url:"./php/controlador.php",
+		type: "get",
+		dataType:"json"
+	}).then( function(data){
+		graficoZonaSegura(data);
+	});
+
 });
 
 	function mostrarMoviles(datos){
-		$("#datosunicos").append("<p>Total de usuarios que han utilizado la app : "+datos.cuantos+" </p>");
+		$("#datosunicos").append("<p>Total de usuarios que han utilizado la app : "+datos.cuantos+" </p>");		
 	}
 
 	function graficoTiempoUso(datos){
 		var longitud = datos.length;
-		$("#datosunicos").append("<p>Tiempo medio de uso de la App : "+datos.tiempomedio+" segundos </p>");
+		$("#tiempo").append("<p>Tiempo medio de uso de la App : "+datos.tiempomedio+" segundos </p>");
 		var chart2 = AmCharts.makeChart("chartdiv5",{
 			"type" : "pie",
 			"theme" : "light",
@@ -90,40 +98,43 @@
 						 markerType : "circle",
 						 "position" : "bottom"
 					   },
+		    "startDuration":2,
 			"dataProvider" : datos.moviles
 	    });
 	}
 	
 	function graficoSms(datos){
-		$("#datosunicos").append("<p>Total de SMS´s enviados : "+datos.total+"</p>");
-		$("#datosunicos").append("<p>Media de SMS´s enviados : "+datos.media+"</p>");	
+		$("#sms").append("<p>Total de SMS´s enviados : "+datos.total+"</p>");
+		$("#sms").append("<p>Media de SMS´s enviados : "+datos.media+"</p>");	
 	
 		var chart = AmCharts.makeChart("chartdiv",{
 			"type" : "serial",
 			"theme" : "light",
 			"categoryField" : "tipo",
 			"categoryAxis" : { "gridPosition" : "start","labelRotation" : 15},
+			"startDuration": 2,
 			"graphs" : [ { "title" : "sms´s",	
 			               "type" : "column", 
 						   "valueField" : "valor",
 						   "fillAlphas" : 1,
-						   "balloonText" : "[[category]]: <b>[[value]]</b>"
+						   "fillColors" : "#ae85c9",
+						   "balloonText" : "[[category]]: <b>[[value]]</b>",
+						   "topRadius":0.5,
 						 }
-					   ],				
-					
+					   ],	
 			"valueAxes" : [ { "title" : "sms generados" } ],
 			"legend" : { "useGraphSettings" : true,
 						 "position": "right",			},
 			"titles" : [ { "size" : 15, "text" : "Avisos de Sms" } ],
-			"depth3D" : 15,
-			"angle" :  30,
+			"depth3D" : 25,
+			"angle" :  40,
 			
 			"dataProvider" : datos.moviles
 		});
 	}
 	
 	function graficoDucha(datos){
-		$("#datosunicos").append("<p>Tiempo de ducha más utilizado : "+datos.mas+" minutos </p>");
+		$("#ducha").append("<p>Tiempo de ducha más utilizado : "+datos.mas+" minutos </p>");
 		var chart = AmCharts.makeChart("chartdiv2",{
 			"type":"serial",
 			"theme":"light",
@@ -134,6 +145,7 @@
 				"useGraphSettings": true,
 				"markerSize": 10
 			},
+			"startDuration":2,
 			dataProvider : datos.moviles,
 			"valueAxes" : [ { "title" : "botones modo ducha",
 							  "stackType":"regular"
@@ -141,6 +153,8 @@
 			"categoryField" : "movil",
 			"categoryAxis" : { "gridPosition" : "start","labelRotation" : 15},
 			"titles" : [ { "size" : 15, "text" : "Gráfico modo ducha" } ],
+				"depth3D" : 15,
+			"angle" :  30,
 			"graphs" : [ { "title" : "15",	
 			               "type" : "column", 
 						   "valueField" : "15",
@@ -168,20 +182,6 @@
 		
 	//muestra datos por movil
 	function graficoRedNeuronal(datos){
-		var texto ="<p>Total de eventos de red neuronal generados ";
-		texto +="<ul><li>Sentado "+datos.total.sentado+" </li>"
-		texto +="    <li>Golpe "+datos.total.golpe+"</li>";
-	    texto +="    <li>Correr "+datos.total.correr+"</li>";
-		texto +="    <li>Caida "+datos.total.caida+"</li>";		
-		$("#datosunicos").append(texto+"</ul></p>");
-		
-		var texto2 = "<p>Media de eventos de red neuronal generados ";
-		texto2 +="<ul><li>Sentado "+datos.media.sentado+" </li>"
-		texto2 +="    <li>Golpe "+datos.media.golpe+"</li>";
-	    texto2 +="    <li>Correr "+datos.media.correr+"</li>";
-		texto2 +="    <li>Caida "+datos.media.caida+"</li>";			
-		$("#datosunicos").append(texto2+" </ul></p>");	
-	
 		var chart = AmCharts.makeChart("chartdiv33",{
 			"type":"serial",
 			"theme":"light",
@@ -192,6 +192,7 @@
 				"useGraphSettings": true,
 				"markerSize": 10
 			},
+			"startDuration": 2,
 			dataProvider : datos.moviles,
 			"valueAxes" : [ { "title" : "eventos red neuronal",
 							  "stackType":"regular"
@@ -240,21 +241,21 @@
 		texto +="    <li>Golpe "+datos.total.golpe+"</li>";
 	    texto +="    <li>Correr "+datos.total.correr+"</li>";
 		texto +="    <li>Caida "+datos.total.caida+"</li>";		
-		$("#datosunicos").append(texto+"</ul></p>");
+		$("#red").append(texto+"</ul></p>");
 		
 		var texto2 = "<p>Media de eventos de red neuronal generados ";
 		texto2 +="<ul><li>Sentado "+datos.media.sentado+" </li>"
 		texto2 +="    <li>Golpe "+datos.media.golpe+"</li>";
 	    texto2 +="    <li>Correr "+datos.media.correr+"</li>";
 		texto2 +="    <li>Caida "+datos.media.caida+"</li>";			
-		$("#datosunicos").append(texto2+" </ul></p>");	
+		$("#red").append(texto2+" </ul></p>");	
 		
 		var chart = AmCharts.makeChart("chartdiv3",{
 			"type" : "serial",
 			"theme" : "light",
 			"categoryField" : "tipo",
 			"categoryAxis" : { "gridPosition" : "start","labelRotation" : 15},
-			"graphs" : [ { "title" : "avisos botón verde"	,
+			"graphs" : [ { "title" : "Eventos de red neuronal"	,
 			               "type" : "column", 
 						   "valueField" : "valor",
 						   "fillAlphas" : 1,
@@ -262,13 +263,13 @@
 						 }
 					   ],				
 					
-			"valueAxes" :[  { "title" : "Avisos de botón verde" } ],
+			"valueAxes" :[  { "title" : "Eventos de red neuronal" } ],
 			"legend" : { "useGraphSettings" : true,
 						 "position": "right",			},
-			"titles" : [ { "size" : 15, "text" : "Avisos de tranquilidad" } ],
+			"titles" : [ { "size" : 15, "text" : "Eventos de red neuronal" } ],
 			"depth3D" : 15,
 			"angle" :  30,
-			
+			"startDuration":2,
 			"dataProvider" : datos.moviles
 		});
 		
@@ -276,8 +277,8 @@
 	}
 	
 	function graficoBotonRojo(datos){
-		$("#datosunicos").append("<p>Total de avisos de tipo alerta (botón rojo) : "+datos.avisos+"</p>");
-		$("#datosunicos").append("<p>Media de avisos de tipo alerta (botón rojo) : "+datos.media+"</p>");	
+		$("#botonrojo").append("<p>Total de avisos de tipo alerta (botón rojo) : "+datos.avisos+"</p>");
+		$("#botonrojo").append("<p>Media de avisos de tipo alerta (botón rojo) : "+datos.media+"</p>");	
 		
 		var chart = AmCharts.makeChart("chartdiv4",{
 			"type" : "serial",
@@ -298,14 +299,14 @@
 			"titles" : [ { "size" : 15, "text" : "Avisos de botón rojo" } ],
 			"depth3D" : 15,
 			"angle" :  30,
-			
+			"startDuration":2,
 			"dataProvider" : datos.moviles
 		});
 	}
 	
 	function graficoBotonTranquilidad(datos){
-		$("#datosunicos").append("<p>Total de avisos de tipo tranquilidad (botón verde) : "+datos.avisos+"</p>");
-		$("#datosunicos").append("<p>Media de avisos de tipo tranquilidad (botón verde) : "+datos.media+"</p>");	
+		$("#botonverde").append("<p>Total de avisos de tipo tranquilidad (botón verde) : "+datos.avisos+"</p>");
+		$("#botonverde").append("<p>Media de avisos de tipo tranquilidad (botón verde) : "+datos.media+"</p>");	
 		
 		var chart = AmCharts.makeChart("chartdiv6",{
 			"type" : "serial",
@@ -326,14 +327,14 @@
 			"titles" : [ { "size" : 15, "text" : "Avisos de tranquilidad" } ],
 			"depth3D" : 15,
 			"angle" :  30,
-			
+			"startDuration":2,
 			"dataProvider" : datos.moviles
 		});
 	}
 	
 	function graficoBateriaBaja(datos){
-		$("#datosunicos").append("<p>Total de avisos de batería baja : "+datos.avisos+"</p>");
-		$("#datosunicos").append("<p>Media de avisos de batería baja : "+datos.media+"</p>");	
+		$("#bateria").append("<p>Total de avisos de batería baja : "+datos.avisos+"</p>");
+		$("#bateria").append("<p>Media de avisos de batería baja : "+datos.media+"</p>");	
 		var chart = AmCharts.makeChart("chartdiv7",{
 			"type" : "serial",
 			"theme" : "light",
@@ -353,35 +354,36 @@
 			"titles" : [ { "size" : 15, "text" : "Avisos de batería baja" } ],
 			"depth3D" : 15,
 			"angle" :  30,
-			
+			"startDuration":2,
 			"dataProvider" : datos.moviles
 		});
 	}
 
-	
-	/*
-	function graficoLinea(datos){
-		var chart3 = AmCharts.makeChart("chartdiv3",{
+	function graficoZonaSegura(datos){
+		$("#zonasegura").append("<p>Total de avisos de zona segura : "+datos.avisos+"</p>");
+		$("#zonasegura").append("<p>Media de avisos de zona segura : "+datos.media+"</p>");	
+		var chart = AmCharts.makeChart("chartdiv8",{
 			"type" : "serial",
-			
-			"categoryField" : "tipo",
-			"categoryAxis" : {
-				"gridPosition" : "start"
-				},
-			"graphs" : [
-				{
-				"title" : "Eventos",
-				"valueField" : "valor"			
-				}
-				],
-				
-		    "valueAxes": [ { "title": "Número de pulsaciones"} ],
-			"legend": { "useGraphSettings": true },
-			"titles": [ { "size": 15, "text": "Gráfico de lineas" }],
-			"dataProvider": datos
-			
-			
-		});		
-	}  
-
-	*/
+			"theme" : "light",
+			"categoryField" : "movil",
+			"categoryAxis" : { "gridPosition" : "start","labelRotation" : 15},
+			"graphs" : [ { "title" : "avisos zona segura"	,
+			               "type" : "column", 
+						   "valueField" : "aviso",
+						   "fillAlphas" : 1,
+						   "balloonText" : "[[category]]: <b>[[value]]</b>"
+						 }
+					   ],				
+					
+			"valueAxes" : [ { "title" : "Avisos de Zona Segura" } ],
+			"legend" : { "useGraphSettings" : true,
+						 "position": "right",			},
+			"titles" : [ { "size" : 15, "text" : "Avisos de Zona Segura" } ],
+			"depth3D" : 15,
+			"angle" :  30,	
+			"startDuration":2,			
+			"dataProvider" : datos.moviles
+		});
+	}
+		
+	

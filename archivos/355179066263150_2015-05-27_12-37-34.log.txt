@@ -55,6 +55,7 @@
 >2015-05-27_12-34-55;aviso;caida
 >2015-05-27_12-34-55;aviso;caida
 >2015-05-27_12-34-55;aviso;caida
+>2015-05-27_12-34-59;aviso;zona segura
 >2015-05-27_12-35-32;boton;configuracion pulsado
 >2015-05-27_12-35-32;configuracion;opciones usuario
 >2015-05-27_12-35-38;configuracion;zona segura

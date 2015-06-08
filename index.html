@@ -14,19 +14,107 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/codigo.js" ></script>
 
+<link href='http://fonts.googleapis.com/css?family=Fresca' rel='stylesheet' type='text/css'>
+
+<style>
+	.big {
+		width: 960px; 
+		border-top:solid 1px red;		
+		margin:auto;
+		margin-bottom:10px;
+		clear:both;	
+	}
+	
+	.big p{
+		
+	}
+	
+	.chart {
+		width: 500px; 
+		height: 320px; 
+		float:left;
+	}
+	
+	#cabecera {
+	   background-image:url("./imagenes/logotipo.png"),url("./imagenes/fondo.jpg") ;
+   	   background-size: contain, 100% 100%;
+	   background-repeat: no-repeat;
+	   background-position: top left,top left;
+	}
+	
+	h2{
+		color:#616265;
+		size: 20px;
+		font-family: 'Fresca', sans-serif;
+	}
+	
+	p, ul li{
+		color:#616265;
+		size: 14px;
+		font-family: 'Fresca', sans-serif;
+	}
+		
+	.amcharts-chart-div a{
+		visibility: hidden;
+	}
+		
+	#cabecera p {
+		text-align: center;
+		font-family: verdana;
+		font-size: 40px;
+		font-weight:bold;
+	}
+	
+	#cabecera p+p{
+		font-size: 30px;
+	}
+</style>
+
 </head>
 <body>
-	<h2>Datos generales</h2>
-	<div id="datosunicos"></div>
-	<hr>
-	<h2>Datos disgregados</h2>
-    <div id="chartdiv"  style="width: 480px; height: 300px; float: left;"></div>
-	<div id="chartdiv2" style="width: 480px; height: 300px; float: left;"></div>
-	<div id="chartdiv3" style="width: 480px; height: 300px; float: left;"></div>
-	<div id="chartdiv33" style="width: 480px; height: 300px; float: left;"></div>
-	<div id="chartdiv4" style="width: 480px; height: 300px; float: left;"></div>
-	<div id="chartdiv5" style="width: 480px; height: 300px; float: left;"></div>
-	<div id="chartdiv6" style="width: 480px; height: 300px; float: left;"></div>
-	<div id="chartdiv7" style="width: 480px; height: 300px; float: left;"></div>
+	<div id="cabecera">
+		<p>Teleasistenci@TIC+</p>
+		<p>Equipo de desarrollo</p>
+	</div>
+	
+	<h2>Datos de pilotaje</h2>
+	<div id="datosunicos"></div>	
+	
+    <div id="sms" class="big"> 
+		<div id="chartdiv"  class="chart"></div> 
+	</div>
+	
+	<div id="ducha" class="big">
+		<div id="chartdiv2" class="chart"></div>
+	</div>
+	
+	<div id="red" class="big">
+		<div id="chartdiv3" class="chart"></div>
+	</div>
+	
+	<div id="red2" class="big">
+		<div id="chartdiv33" class="chart"></div>
+	</div>
+	
+	<div id="botonrojo" class="big">
+		<div id="chartdiv4" class="chart"></div>
+	</div>
+	
+	<div id="bateria" class="big">
+		<div id="chartdiv7" class="chart"></div>
+	</div>
+	
+	<div id="botonverde" class="big">
+		<div id="chartdiv6" class="chart"></div>
+	</div>
+	
+	<div id="tiempo" class="big">
+		<div id="chartdiv5" class="chart"></div>
+	</div>
+	
+	<div id="zonasegura" class="big">
+		<div id="chartdiv8" class="chart"></div>
+	</div>
+	
 </body>
 </html>

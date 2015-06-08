@@ -1,50 +1,15 @@
 ﻿<?php
 
+/* Esta clase es la responsable de acceder a los archivos en texto plano y procesar su información. */
 class Gestor {
 	
-	private $path="../archivos";	
-	private $losnombres = array();	
+	private $path="../archivos";	//direccion a la carpeta que contiene los archivos.
+	private $losnombres = array();	 //array de nombres de los archivos.
 	
 	function __construct() {
        $this->losnombres = $this->getNombres();
     }
-	
-	/**
-	 * Devuelve un array con los identificadores de los distintos moviles.
-	 */
-	function getImeis(){
-		$imei = array(); //array con todos los numeros 
-		foreach($this->losnombres as $valor){
-			$imei[] = substr($valor,0,15);	 //capturo los primeros elementos que se corresponden con el imei.	
-		}
-		$res = array_unique($imei);
-		return $res;
-	}
-	
-	/**
-	 * Devuelve un array con los identificadores de moviles y día. 
-	 * Cada dato indica un archivo de 1 movil y 1 día. 
-	 */
-	function getImeisDia(){
-		$imeydia = array();
-		foreach($this->losnombres as $valor){
-			$imeiydia[] = substr($valor,0,26); //capturo valor de imei y dia
-		}
-		$res2 = array_unique($imeiydia);
-		return $res2;	
-	}
-	
-	
-	//Devuelve los nombres de todos los archivos existentes.
-	function getNombres(){
-		$directorio = opendir($this->path); //ruta actual
-		$nombres = array();
-		while( $archivo = readdir($directorio) ){
-			if( is_dir($archivo) ){}else{ $nombres[] = $archivo; }
-		}		
-		closedir($directorio);		
-		return $nombres;
-	}
+		
 	
 	//Devuelve el tiempo de uso de la app por movil y día.
 	function getUsoDiario(){
@@ -205,7 +170,7 @@ class Gestor {
 	 /**
 	  * Devuelve los avisos de alerta generados por cada movil -> envios de sms de boton rojo
 	  */
-	  function getAvisoAlerta(){
+    function getAvisoAlerta(){
 		 $losimei = $this->getImeis();
 		 $vector=array();
 		 foreach($losimei as $key => $valor){
@@ -229,7 +194,7 @@ class Gestor {
 	  /**
 	   * Devuelve los avisos de modo ducha activado segun tiempo y para cada movil.
 	   */
-	   function getModoDucha(){
+    function getModoDucha(){
 	   	  $losimei = $this->getImeis();
 		  $vector=array();
 		  $contador = array();
@@ -259,20 +224,6 @@ class Gestor {
 			return $vector; 
 	   }
 	
-	/**
-	 * Devuelve un array con todas las lineas de un fichero.
-	 */
-	function getArchivo($pathYnombre){
-		$datosfichero = array();
-		if( ($gestor = fopen($pathYnombre, "r") )!==FALSE ){
-			while( ($datos = fgetcsv($gestor , 1000, ";" ) ) !== FALSE ){
-				$datosfichero[] = $datos;
-			}
-			fclose($gestor);
-		}
-		return $datosfichero;
-	}
-	
 	// Devuelve los eventos de notificación de batería baja.
 	function getAvisosBateria(){
 		$losimei = $this->getImeis();
@@ -295,6 +246,87 @@ class Gestor {
 		return $vector;		
 	}
 	
+	/* Devuelve los avisos de zona segura
+	 */
+	function getZonaSegura(){
+		$vector = $this->dameVectordemovilesacero();
+		
+		foreach($this->losnombres as $nombre){
+			$dire = $this->path."/".$nombre;
+			$datoscsv = $this->getArchivo($dire);
+			$indice = substr($nombre,0,15); //para cada movil
+			for($i=0;$i<count($datoscsv);$i++){ //para cada linea
+				if( $datoscsv[$i][1]=="aviso" && $datoscsv[$i][2]=="zona segura" ){
+					$vector[$indice]++;
+				}
+			}
+		}
+		return $vector;
+	}
+	
+	
+	
+	/***  métodos privados ***/
+	
+	
+	private function dameVectordemovilesacero(){
+		$losimei = $this->getImeis();
+		$vector = array();
+		foreach($losimei as $key => $valor){
+			$vector[$valor]=0; //inicio cada movil a 0
+		}
+		return $vector;
+	}
+	
+	/**
+	 * Devuelve un array con todas las lineas de un fichero.
+	 */
+	private function getArchivo($pathYnombre){
+		$datosfichero = array();
+		if( ($gestor = fopen($pathYnombre, "r") )!==FALSE ){
+			while( ($datos = fgetcsv($gestor , 1000, ";" ) ) !== FALSE ){
+				$datosfichero[] = $datos;
+			}
+			fclose($gestor);
+		}
+		return $datosfichero;
+	}
+	
+	/**
+	 * Devuelve un array con los identificadores de los distintos moviles.
+	 */
+	private function getImeis(){
+		$imei = array(); //array con todos los numeros 
+		foreach($this->losnombres as $valor){
+			$imei[] = substr($valor,0,15);	 //capturo los primeros elementos que se corresponden con el imei.	
+		}
+		$res = array_unique($imei);
+		return $res;
+	}
+	
+	/**
+	 * Devuelve un array con los identificadores de moviles y día. 
+	 * Cada dato indica un archivo de 1 movil y 1 día. 
+	 */
+	private function getImeisDia(){
+		$imeydia = array();
+		foreach($this->losnombres as $valor){
+			$imeiydia[] = substr($valor,0,26); //capturo valor de imei y dia
+		}
+		$res2 = array_unique($imeiydia);
+		return $res2;	
+	}
+	
+	//Devuelve los nombres de todos los archivos existentes.
+	private function getNombres(){
+		$directorio = opendir($this->path); //ruta actual
+		$nombres = array();
+		while( $archivo = readdir($directorio) ){
+			if( is_dir($archivo) ){}else{ $nombres[] = $archivo; }
+		}		
+		closedir($directorio);		
+		return $nombres;
+	}
 }
 
 

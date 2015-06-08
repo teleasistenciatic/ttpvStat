@@ -183,18 +183,26 @@ switch($accion){
 		$vector["media"] = $contador/count($datos);
 		
 		echo json_encode( $vector );
+		break;
+	case "zonasegura":	
+		$datos = $gestor->getZonaSegura();
+		$total = array();
+		$contador = 0;
+		foreach($datos as $key => $valor){
+			$objeto = array();
+			$objeto["movil"] = $key;
+			$objeto["aviso"] = $valor;
+			$total[] = $objeto;
+			$contador += $valor; //suma de todos los avisos
+		}
+		$vector = array();
+		$vector["moviles"] = $total;
+		$vector["avisos"] = $contador;
+		$vector["media"] = $contador/count($datos);
 		
+		echo json_encode( $vector );		
 		break;
 }
-
-
-
-
-
-
-
-
-
 
 
 

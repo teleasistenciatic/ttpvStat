@@ -93,10 +93,12 @@ class Gestor {
 		
 		//para cada fichero buscar datos de avisos. de los 4 tipos.
 		foreach($this->losnombres as $nombre){
+		
 			$direc = $this->path."/".$nombre;
+
 			$datoscsv = $this->getArchivo($direc); //contiene toda la informacion de un fichero como array. 
 			$indice = substr($nombre,0,15); //capturo valor de imei y dia
-		    for($i=0;$i<count($datoscsv);$i++){ //para cada linea			
+		    for($i=0;$i<count($datoscsv);$i++){ //para cada linea		
 				if( $datoscsv[$i][2] == "caida" ){
 					$vectorred[$indice]["caida"]++;
 				}

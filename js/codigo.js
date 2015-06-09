@@ -1,80 +1,95 @@
 ﻿$(document).ready(function() {
 
+	var laurl ="./php/controlador2.php"; 
+	/*controlador.php o controlador2.php El primero trata todos los archivos en cada llamada. 
+	El segundo utiliza session para guardar	el gestor y solo llamar 1 vez a todos los archivos. */
+	
+	
 	$.ajax({ data:{"accion":"cuantosmoviles"},
-		url:"./php/controlador.php",		
+		url:laurl,		
 		type:"get",
+		async:false,
 		dataType: "json"
 	}).then( function(data){
-		mostrarMoviles(data);
+		mostrarMoviles(data);		
 	});
 	
 	$.ajax({ data:{"accion":"tiempouso"},	   
-		url: "./php/controlador.php",
+		url:laurl,
 		type: "get",
+		async:false,
 		dataType: "json"
 	}).then( function(data) {
 		graficoTiempoUso(data);
 	});
 	
 	$.ajax({ data:{"accion":"smsgenerados"},
-		url:"./php/controlador.php",		
+		url:laurl,		
 		type: "get",
+		async:false,
 		dataType:"json"
 	}).then( function(data){
 		graficoSms(data);
 	});
 	
 	$.ajax({ data:{"accion":"mododucha"},
-		url:"./php/controlador.php",	
+		url:laurl,	
 		type: "get",
+		async:false,
 		dataType:"json"
 	}).then( function(data){
 		graficoDucha(data);
 	});
 	
 	$.ajax({ data:{"accion":"redneuronal"},
-		url:"./php/controlador.php",		
+		url:laurl,		
 		type: "get",
+		async:false,
 		dataType:"json"
 	}).then( function(data){
 		graficoRedNeuronal(data);
 	});
 	
 	$.ajax({ data:{"accion":"redneuronal2"},
-		url:"./php/controlador.php",		
+		url:laurl,		
 		type: "get",
+		async:false,
 		dataType:"json"
 	}).then( function(data){
 		graficoRedNeuronal2(data);
 	});
 	
 	$.ajax({ data:{"accion":"botonrojo"},
-		url:"./php/controlador.php",		
+		url:laurl,		
 		type: "get",
+		async:false,
 		dataType:"json"
 	}).then( function(data){
 		graficoBotonRojo(data);
 	});
 	
 	$.ajax({ data:{"accion":"botontranquilidad"},
-		url:"./php/controlador.php",		
+		url:laurl,		
 		type: "get",
+		async:false,
 		dataType:"json"
 	}).then( function(data){
 		graficoBotonTranquilidad(data);
 	});
 	
 	$.ajax({ data:{"accion":"bateriabaja"},
-		url:"./php/controlador.php",		
+		url:laurl,		
 		type: "get",
+		async:false,
 		dataType:"json"
 	}).then( function(data){
 		graficoBateriaBaja(data);
 	});
 	
 	$.ajax({ data:{"accion":"zonasegura"},
-		url:"./php/controlador.php",
+		url:laurl,
 		type: "get",
+		async:false,
 		dataType:"json"
 	}).then( function(data){
 		graficoZonaSegura(data);
@@ -82,8 +97,28 @@
 
 });
 
+/*	var d = new Date();
+	var nue = d.getTime();
+	var fin = 0;	
+	var diff = 0 ;
+	
+	
+
+	function calculaTiempo(){
+		var x = new Date();
+		var cuanto = x.getTime();
+		if(cuanto > fin ){
+			fin = cuanto;
+			diff = fin-nue;
+		}
+		$("#datosunicos").append("<p>Tiempos "+nue+" "+fin+" "+cuanto+" "+diff+" </p>");
+	}*/
+
 	function mostrarMoviles(datos){
 		$("#datosunicos").append("<p>Total de usuarios que han utilizado la app : "+datos.cuantos+" </p>");		
+		
+      /*calculaTiempo();
+		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>");*/
 	}
 
 	function graficoTiempoUso(datos){
@@ -101,6 +136,9 @@
 		    "startDuration":2,
 			"dataProvider" : datos.moviles
 	    });
+		
+	/*	calculaTiempo();
+		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
 	}
 	
 	function graficoSms(datos){
@@ -131,6 +169,10 @@
 			
 			"dataProvider" : datos.moviles
 		});
+		
+		
+	/*	calculaTiempo();
+		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
 	}
 	
 	function graficoDucha(datos){
@@ -174,10 +216,20 @@
 						   "valueField" : "45",
 						   "fillAlphas" : 1,
 						   "balloonText" : "[[category]]: <b>[[value]]</b>"
-						 }
+						 },
+						 {
+							"title" : "Personalizado",
+							"type" : "column",
+							"valueField": "pe",
+							"fillAlphas" : 1,
+							"ballonText" : "[[category]]: <b>[[value]]</b>"
+						 }						 
 					   ],	
 			
 		});
+		
+	/*	calculaTiempo();
+		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
 	}
 		
 	//muestra datos por movil
@@ -232,6 +284,9 @@
 					   ],	
 			
 		});
+		
+	/*	calculaTiempo();
+		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
 	}	
 	
 	//muestra totales
@@ -273,7 +328,8 @@
 			"dataProvider" : datos.moviles
 		});
 		
-		
+	/*	calculaTiempo();
+		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
 	}
 	
 	function graficoBotonRojo(datos){
@@ -302,6 +358,9 @@
 			"startDuration":2,
 			"dataProvider" : datos.moviles
 		});
+		
+	/*	calculaTiempo();
+		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
 	}
 	
 	function graficoBotonTranquilidad(datos){
@@ -330,6 +389,9 @@
 			"startDuration":2,
 			"dataProvider" : datos.moviles
 		});
+		
+	/*	calculaTiempo();
+		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
 	}
 	
 	function graficoBateriaBaja(datos){
@@ -357,6 +419,9 @@
 			"startDuration":2,
 			"dataProvider" : datos.moviles
 		});
+		
+	/*	calculaTiempo();
+		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
 	}
 
 	function graficoZonaSegura(datos){
@@ -384,6 +449,9 @@
 			"startDuration":2,			
 			"dataProvider" : datos.moviles
 		});
+		
+	/*	calculaTiempo();
+		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
 	}
 		
 	

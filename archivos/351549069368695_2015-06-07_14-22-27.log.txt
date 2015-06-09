@@ -1,0 +1,33 @@
+>2015-06-07_14-22-27;app;pantalla de carga
+>2015-06-07_14-22-31;app;iniciada IMEI:351549069368695
+>2015-06-07_14-22-31;caidas;servicio iniciado
+>2015-06-07_14-22-31;zona segura;servicio iniciado
+>2015-06-07_14-22-31;bateria;reciver activo
+>2015-06-07_14-22-31;bateria;monitor iniciado
+>2015-06-07_14-22-31;bateria;nivel: 88 estado: Descargando tasa de refresco: 4
+>2015-06-07_14-22-32;boton;configuracion pulsado
+>2015-06-07_14-22-32;configuracion;opciones usuario
+>2015-06-07_14-22-36;configuracion;datos personales
+>2015-06-07_14-23-00;boton;tranquilidad pulsado
+>2015-06-07_14-23-00;aviso;tranquilidad
+>2015-06-07_14-23-00;SMS;enviado:[TELEASISTENCI@TIC+: Maruja Domingo comunica que se encuentra bien a las 07/06/15:14:23:00 en posicion ( https://maps.google.com/?q=37.8831566,-4.7875137 )]
+>2015-06-07_15-52-38;app;cerrada
+>2015-06-07_15-52-40;app;pantalla de carga
+>2015-06-07_15-52-43;app;iniciada IMEI:351549069368695
+>2015-06-07_15-52-44;caidas;servicio iniciado
+>2015-06-07_15-52-44;zona segura;servicio iniciado
+>2015-06-07_15-52-44;bateria;reciver activo
+>2015-06-07_15-52-44;bateria;monitor iniciado
+>2015-06-07_15-52-44;bateria;nivel: 81 estado: Descargando tasa de refresco: 4
+>2015-06-07_15-52-59;boton;alerta pulsado
+>2015-06-07_15-53-02;boton;alerta pulsado
+>2015-06-07_15-53-02;boton;alerta pulsado cuenta atras cancelada
+>2015-06-07_15-53-12;boton;tranquilidad pulsado
+>2015-06-07_15-53-12;aviso;tranquilidad
+>2015-06-07_15-53-12;SMS;enviado:[TELEASISTENCI@TIC+: Maruja Domingo comunica que se encuentra bien a las 07/06/15:15:53:12 en posicion ( https://maps.google.com/?q=37.8831651,-4.7875014 )]
+>2015-06-07_15-54-02;boton;configuracion pulsado
+>2015-06-07_15-54-02;configuracion;opciones usuario
+>2015-06-07_15-56-50;boton;volver a casa pulsado
+>2015-06-07_15-56-50;boton;volver a casa con datos: 37.891191, -4.778796
+>2015-06-07_15-57-26;app;cerrada
+>2015-06-07_15-58-49;aviso;caida

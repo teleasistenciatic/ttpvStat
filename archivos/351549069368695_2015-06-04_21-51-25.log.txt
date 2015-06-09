@@ -1,0 +1,48 @@
+>2015-06-04_21-51-25;aviso;golpe
+>2015-06-04_21-52-40;app;pantalla de carga
+>2015-06-04_21-52-43;app;iniciada IMEI:351549069368695
+>2015-06-04_21-52-44;caidas;servicio iniciado
+>2015-06-04_21-52-44;zona segura;servicio iniciado
+>2015-06-04_21-52-44;bateria;reciver activo
+>2015-06-04_21-52-44;bateria;monitor iniciado
+>2015-06-04_21-52-44;bateria;nivel: 92 estado: Descargando tasa de refresco: 4
+>2015-06-04_21-52-50;boton;tranquilidad pulsado
+>2015-06-04_21-52-50;aviso;tranquilidad
+>2015-06-04_21-52-50;SMS;enviado:[TELEASISTENCI@TIC+: Maruja Domingo comunica que se encuentra bien a las 04/06/15:21:52:50 en posicion ( https://maps.google.com/?q=37.8916546,-4.7783304 )]
+>2015-06-04_21-52-50;aviso;tranquilidad
+>2015-06-04_21-52-50;aviso;tranquilidad
+>2015-06-04_21-53-05;boton;alerta pulsado
+>2015-06-04_21-53-09;aviso;alerta
+>2015-06-04_21-53-09;SMS;enviado:[TELEASISTENCI@TIC+: Maruja Domingo genera aviso 04/06/15:21:53:09 en posicion ( https://maps.google.com/?q=37.8916546,-4.7783304 )]
+>2015-06-04_21-53-24;boton;llamada pulsado
+>2015-06-04_21-53-24;boton;llamada llamando contacto
+>2015-06-04_21-54-48;app;pantalla de carga
+>2015-06-04_21-54-52;app;iniciada IMEI:351549069368695
+>2015-06-04_21-54-52;caidas;servicio iniciado
+>2015-06-04_21-54-52;zona segura;servicio iniciado
+>2015-06-04_21-54-52;bateria;reciver activo
+>2015-06-04_21-54-52;bateria;monitor iniciado
+>2015-06-04_21-54-52;bateria;nivel: 92 estado: Descargando tasa de refresco: 4
+>2015-06-05_09-32-59;app;pantalla de carga
+>2015-06-05_09-33-03;app;iniciada IMEI:351549069368695
+>2015-06-05_09-33-03;caidas;servicio iniciado
+>2015-06-05_09-33-03;zona segura;servicio iniciado
+>2015-06-05_09-33-03;bateria;reciver activo
+>2015-06-05_09-33-03;bateria;monitor iniciado
+>2015-06-05_09-33-03;bateria;nivel: 69 estado: Cargando tasa de refresco: 4
+>2015-06-05_09-33-27;boton;tranquilidad pulsado
+>2015-06-05_09-33-27;aviso;tranquilidad
+>2015-06-05_09-33-27;SMS;enviado:[TELEASISTENCI@TIC+: Maruja Domingo comunica que se encuentra bien a las 05/06/15:09:33:27 en posicion ( https://maps.google.com/?q=37.8916805,-4.7783131 )]
+>2015-06-05_09-33-30;boton;alerta pulsado
+>2015-06-05_09-33-33;boton;alerta pulsado
+>2015-06-05_09-33-33;boton;alerta pulsado cuenta atras cancelada
+>2015-06-05_09-34-03;app;cerrada
+>2015-06-05_09-34-05;app;cerrada
+>2015-06-05_09-34-08;app;iniciada IMEI:351549069368695
+>2015-06-05_09-34-08;caidas;servicio iniciado
+>2015-06-05_09-34-08;zona segura;servicio iniciado
+>2015-06-05_09-34-08;bateria;reciver activo
+>2015-06-05_09-34-08;bateria;monitor iniciado
+>2015-06-05_09-34-08;bateria;nivel: 70 estado: Cargando tasa de refresco: 4
+>2015-06-05_09-34-08;app;cerrada
+>2015-06-05_09-34-09;app;cerrada

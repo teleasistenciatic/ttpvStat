@@ -1,0 +1,29 @@
+>2015-06-08_11-24-45;app;pantalla de carga
+>2015-06-08_11-24-48;app;iniciada IMEI:351549069368695
+>2015-06-08_11-24-49;caidas;servicio iniciado
+>2015-06-08_11-24-49;zona segura;servicio iniciado
+>2015-06-08_11-24-49;bateria;reciver activo
+>2015-06-08_11-24-49;bateria;monitor iniciado
+>2015-06-08_11-24-49;bateria;nivel: 90 estado: Descargando tasa de refresco: 4
+>2015-06-08_11-24-53;boton;alerta pulsado
+>2015-06-08_11-24-54;boton;llamada pulsado
+>2015-06-08_11-24-54;boton;llamada llamando contacto
+>2015-06-08_11-24-57;aviso;alerta
+>2015-06-08_11-24-57;SMS;enviado:[TELEASISTENCI@TIC+: Maruja Domingo genera aviso 08/06/15:11:24:57 en posicion ( https://maps.google.com/?q=37.8871779,-4.7769161 )]
+>2015-06-08_11-29-20;boton;configuracion pulsado
+>2015-06-08_11-29-20;configuracion;opciones usuario
+>2015-06-08_11-29-27;configuracion;zona segura
+>2015-06-08_11-29-33;zona segura;zona segura establecida: 37.891191,-4.778796,600.0
+>2015-06-08_11-31-49;configuracion;zona segura
+>2015-06-08_11-36-30;boton;configuracion pulsado
+>2015-06-08_11-36-30;configuracion;opciones usuario
+>2015-06-08_11-36-39;app;cerrada
+>2015-06-08_11-36-42;app;pantalla de carga
+>2015-06-08_11-36-46;app;iniciada IMEI:351549069368695
+>2015-06-08_11-36-46;caidas;servicio iniciado
+>2015-06-08_11-36-46;zona segura;servicio iniciado
+>2015-06-08_11-36-46;bateria;reciver activo
+>2015-06-08_11-36-46;bateria;monitor iniciado
+>2015-06-08_11-36-46;bateria;nivel: 87 estado: Descargando tasa de refresco: 4
+>2015-06-08_11-37-08;boton;modo ducha pulsado
+>2015-06-08_11-37-10;app;cerrada

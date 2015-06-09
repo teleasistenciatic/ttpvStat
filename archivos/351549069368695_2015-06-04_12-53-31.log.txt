@@ -1,0 +1,148 @@
+>2015-06-04_12-53-31;app;pantalla de carga
+>2015-06-04_12-53-34;app;pantalla de tarificacion extra
+>2015-06-04_12-53-40;app;iniciada IMEI:351549069368695
+>2015-06-04_12-53-41;caidas;no existe preferencia, servicio iniciado
+>2015-06-04_12-53-41;zona segura;servicio no iniciado
+>2015-06-04_12-53-41;bateria;reciver activo
+>2015-06-04_12-53-41;bateria;monitor iniciado
+>2015-06-04_12-53-41;bateria;nivel: 95 estado: Descargando tasa de refresco: 4
+>2015-06-04_12-53-41;configuracion;datos personales
+>2015-06-04_12-54-00;appSharedPreferences;nombre y apellidos creados : Maruja-Domingo
+>2015-06-04_12-54-00;configuracion;personas contacto
+>2015-06-04_12-54-37;appSharedPreferences;contactos creados : Antonio alf Le-661826060_-_-
+>2015-06-04_12-55-17;boton;configuracion pulsado
+>2015-06-04_12-55-18;configuracion;opciones usuario
+>2015-06-04_12-55-19;configuracion;personas contacto
+>2015-06-04_12-55-31;configuracion;caidas
+>2015-06-04_12-55-36;configuracion;zona segura
+>2015-06-04_12-57-12;zona segura;zona segura establecida: 37.8907098644174,-4.778580665588379,10.0
+>2015-06-04_12-57-19;zona segura;zona segura establecida: 37.891191,-4.778796,10.0
+>2015-06-04_12-57-26;zona segura;zona segura establecida: 37.891191,-4.778796,40.0
+>2015-06-04_12-57-26;zona segura;zona segura establecida: 37.891191,-4.778796,40.0
+>2015-06-04_12-57-26;zona segura;zona segura establecida: 37.891191,-4.778796,60.0
+>2015-06-04_12-57-26;zona segura;zona segura establecida: 37.891191,-4.778796,60.0
+>2015-06-04_12-57-26;zona segura;zona segura establecida: 37.891191,-4.778796,120.0
+>2015-06-04_12-57-26;zona segura;zona segura establecida: 37.891191,-4.778796,120.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,140.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,140.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,180.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,180.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,220.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,220.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,300.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,300.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,340.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,340.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,380.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,380.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,400.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,400.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,420.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,420.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,440.0
+>2015-06-04_12-57-27;zona segura;zona segura establecida: 37.891191,-4.778796,440.0
+>2015-06-04_12-57-28;zona segura;zona segura establecida: 37.891191,-4.778796,480.0
+>2015-06-04_12-57-28;zona segura;zona segura establecida: 37.891191,-4.778796,480.0
+>2015-06-04_12-57-28;zona segura;zona segura establecida: 37.891191,-4.778796,580.0
+>2015-06-04_12-57-28;zona segura;zona segura establecida: 37.891191,-4.778796,580.0
+>2015-06-04_12-57-28;zona segura;zona segura establecida: 37.891191,-4.778796,700.0
+>2015-06-04_12-57-28;zona segura;zona segura establecida: 37.891191,-4.778796,700.0
+>2015-06-04_12-57-28;zona segura;zona segura establecida: 37.891191,-4.778796,720.0
+>2015-06-04_12-57-28;zona segura;zona segura establecida: 37.891191,-4.778796,720.0
+>2015-06-04_12-57-28;zona segura;zona segura establecida: 37.891191,-4.778796,760.0
+>2015-06-04_12-57-28;zona segura;zona segura establecida: 37.891191,-4.778796,760.0
+>2015-06-04_12-57-28;zona segura;zona segura establecida: 37.891191,-4.778796,850.0
+>2015-06-04_12-57-28;zona segura;zona segura establecida: 37.891191,-4.778796,850.0
+>2015-06-04_12-57-29;zona segura;zona segura establecida: 37.891191,-4.778796,830.0
+>2015-06-04_12-57-29;zona segura;zona segura establecida: 37.891191,-4.778796,830.0
+>2015-06-04_12-57-29;zona segura;zona segura establecida: 37.891191,-4.778796,790.0
+>2015-06-04_12-57-29;zona segura;zona segura establecida: 37.891191,-4.778796,790.0
+>2015-06-04_12-57-29;zona segura;zona segura establecida: 37.891191,-4.778796,600.0
+>2015-06-04_12-57-29;zona segura;zona segura establecida: 37.891191,-4.778796,600.0
+>2015-06-04_12-57-29;zona segura;zona segura establecida: 37.891191,-4.778796,420.0
+>2015-06-04_12-57-29;zona segura;zona segura establecida: 37.891191,-4.778796,420.0
+>2015-06-04_12-57-29;zona segura;zona segura establecida: 37.891191,-4.778796,360.0
+>2015-06-04_12-57-29;zona segura;zona segura establecida: 37.891191,-4.778796,360.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,380.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,380.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,400.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,400.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,420.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,420.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,440.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,440.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,460.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,460.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,520.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,520.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,560.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,560.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,600.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,600.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,680.0
+>2015-06-04_12-57-30;zona segura;zona segura establecida: 37.891191,-4.778796,680.0
+>2015-06-04_12-57-31;zona segura;zona segura establecida: 37.891191,-4.778796,660.0
+>2015-06-04_12-57-31;zona segura;zona segura establecida: 37.891191,-4.778796,660.0
+>2015-06-04_12-57-31;zona segura;zona segura establecida: 37.891191,-4.778796,640.0
+>2015-06-04_12-57-31;zona segura;zona segura establecida: 37.891191,-4.778796,640.0
+>2015-06-04_12-57-31;zona segura;zona segura establecida: 37.891191,-4.778796,560.0
+>2015-06-04_12-57-31;zona segura;zona segura establecida: 37.891191,-4.778796,560.0
+>2015-06-04_12-57-31;zona segura;zona segura establecida: 37.891191,-4.778796,520.0
+>2015-06-04_12-57-31;zona segura;zona segura establecida: 37.891191,-4.778796,520.0
+>2015-06-04_12-57-31;zona segura;zona segura establecida: 37.891191,-4.778796,500.0
+>2015-06-04_12-57-31;zona segura;zona segura establecida: 37.891191,-4.778796,500.0
+>2015-06-04_12-57-41;zona segura;zona segura establecida: 37.891191,-4.778796,500.0
+>2015-06-04_12-57-45;zona segura;zona segura establecida: 37.891191,-4.778796,240.0
+>2015-06-04_12-57-45;zona segura;zona segura establecida: 37.891191,-4.778796,240.0
+>2015-06-04_12-57-45;zona segura;zona segura establecida: 37.891191,-4.778796,260.0
+>2015-06-04_12-57-45;zona segura;zona segura establecida: 37.891191,-4.778796,260.0
+>2015-06-04_12-57-45;zona segura;zona segura establecida: 37.891191,-4.778796,320.0
+>2015-06-04_12-57-45;zona segura;zona segura establecida: 37.891191,-4.778796,320.0
+>2015-06-04_12-57-45;zona segura;zona segura establecida: 37.891191,-4.778796,340.0
+>2015-06-04_12-57-45;zona segura;zona segura establecida: 37.891191,-4.778796,340.0
+>2015-06-04_12-57-46;zona segura;zona segura establecida: 37.891191,-4.778796,380.0
+>2015-06-04_12-57-46;zona segura;zona segura establecida: 37.891191,-4.778796,380.0
+>2015-06-04_12-57-46;zona segura;zona segura establecida: 37.891191,-4.778796,400.0
+>2015-06-04_12-57-46;zona segura;zona segura establecida: 37.891191,-4.778796,400.0
+>2015-06-04_12-57-46;zona segura;zona segura establecida: 37.891191,-4.778796,460.0
+>2015-06-04_12-57-46;zona segura;zona segura establecida: 37.891191,-4.778796,460.0
+>2015-06-04_12-57-46;zona segura;zona segura establecida: 37.891191,-4.778796,580.0
+>2015-06-04_12-57-46;zona segura;zona segura establecida: 37.891191,-4.778796,580.0
+>2015-06-04_12-57-47;zona segura;zona segura establecida: 37.891191,-4.778796,600.0
+>2015-06-04_12-57-47;zona segura;zona segura establecida: 37.891191,-4.778796,600.0
+>2015-06-04_12-58-21;configuracion;bateria
+>2015-06-04_12-59-05;bateria;reciver activo
+>2015-06-04_12-59-53;app;pantalla de carga
+>2015-06-04_12-59-56;app;iniciada IMEI:351549069368695
+>2015-06-04_12-59-57;caidas;servicio iniciado
+>2015-06-04_12-59-57;zona segura;servicio iniciado
+>2015-06-04_12-59-57;bateria;reciver activo
+>2015-06-04_12-59-57;bateria;monitor iniciado
+>2015-06-04_12-59-57;bateria;nivel: 93 estado: Descargando tasa de refresco: 4
+>2015-06-04_12-59-59;app;cerrada
+>2015-06-04_13-00-44;app;pantalla de carga
+>2015-06-04_13-00-47;app;iniciada IMEI:351549069368695
+>2015-06-04_13-00-47;caidas;servicio iniciado
+>2015-06-04_13-00-47;zona segura;servicio iniciado
+>2015-06-04_13-00-47;bateria;reciver activo
+>2015-06-04_13-00-47;bateria;monitor iniciado
+>2015-06-04_13-00-47;bateria;nivel: 93 estado: Descargando tasa de refresco: 4
+>2015-06-04_13-01-09;boton;modo ducha pulsado
+>2015-06-04_13-01-11;modo ducha;iniciado con minutos : 45
+>2015-06-04_13-02-15;boton;modo ducha pulsado
+>2015-06-04_13-02-18;modo ducha;iniciado con minutos : 15
+>2015-06-04_13-02-41;app;cerrada
+>2015-06-04_13-02-55;bateria;nivel: 92 estado: Descargando tasa de refresco: 4
+>2015-06-04_13-07-26;bateria;nivel: 91 estado: Descargando tasa de refresco: 4
+>2015-06-04_13-11-57;bateria;nivel: 90 estado: Descargando tasa de refresco: 4
+>2015-06-04_13-16-27;bateria;nivel: 90 estado: Descargando tasa de refresco: 4
+>2015-06-04_13-16-28;aviso;sentado
+>2015-06-04_13-20-58;bateria;nivel: 89 estado: Descargando tasa de refresco: 4
+>2015-06-04_13-26-29;bateria;nivel: 89 estado: Descargando tasa de refresco: 4
+>2015-06-04_13-33-00;bateria;nivel: 89 estado: Descargando tasa de refresco: 4
+>2015-06-04_13-38-31;bateria;nivel: 88 estado: Descargando tasa de refresco: 4
+>2015-06-04_13-44-32;bateria;nivel: 88 estado: Descargando tasa de refresco: 4
+>2015-06-04_13-51-03;bateria;nivel: 87 estado: Descargando tasa de refresco: 4
+>2015-06-04_13-58-04;bateria;nivel: 87 estado: Descargando tasa de refresco: 4
+>2015-06-04_14-04-05;bateria;nivel: 86 estado: Descargando tasa de refresco: 4
+>2015-06-04_14-12-06;bateria;nivel: 86 estado: Descargando tasa de refresco: 4

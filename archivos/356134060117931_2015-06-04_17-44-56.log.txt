@@ -1,0 +1,37 @@
+>2015-06-04_17-44-56;app;pantalla de carga
+>2015-06-04_17-45-00;app;iniciada IMEI:356134060117931
+>2015-06-04_17-45-00;caidas;servicio iniciado
+>2015-06-04_17-45-00;zona segura;servicio iniciado
+>2015-06-04_17-45-00;bateria;reciver activo
+>2015-06-04_17-45-00;bateria;monitor iniciado
+>2015-06-04_17-45-00;bateria;nivel: 96 estado: Descargando tasa de refresco: 4
+>2015-06-04_17-45-10;app;cerrada
+>2015-06-04_18-48-21;app;pantalla de carga
+>2015-06-04_18-48-24;app;iniciada IMEI:356134060117931
+>2015-06-04_18-48-24;caidas;servicio iniciado
+>2015-06-04_18-48-24;zona segura;servicio iniciado
+>2015-06-04_18-48-24;bateria;reciver activo
+>2015-06-04_18-48-24;bateria;monitor iniciado
+>2015-06-04_18-48-24;bateria;nivel: 91 estado: Descargando tasa de refresco: 4
+>2015-06-04_18-48-33;boton;modo ducha pulsado
+>2015-06-04_18-49-03;app;cerrada
+>2015-06-04_18-49-11;app;pantalla de carga
+>2015-06-04_18-49-14;app;iniciada IMEI:356134060117931
+>2015-06-04_18-49-14;caidas;servicio iniciado
+>2015-06-04_18-49-14;zona segura;servicio iniciado
+>2015-06-04_18-49-14;bateria;reciver activo
+>2015-06-04_18-49-14;bateria;monitor iniciado
+>2015-06-04_18-49-14;bateria;nivel: 91 estado: Descargando tasa de refresco: 4
+>2015-06-04_18-49-24;app;cerrada
+>2015-06-04_18-49-30;app;pantalla de carga
+>2015-06-04_18-49-33;app;iniciada IMEI:356134060117931
+>2015-06-04_18-49-34;caidas;servicio iniciado
+>2015-06-04_18-49-34;zona segura;servicio iniciado
+>2015-06-04_18-49-34;bateria;reciver activo
+>2015-06-04_18-49-34;bateria;monitor iniciado
+>2015-06-04_18-49-34;bateria;nivel: 91 estado: Descargando tasa de refresco: 4
+>2015-06-04_18-49-57;boton;alerta pulsado
+>2015-06-04_18-50-00;boton;alerta pulsado
+>2015-06-04_18-50-00;boton;alerta pulsado cuenta atras cancelada
+>2015-06-04_18-50-11;app;cerrada
+

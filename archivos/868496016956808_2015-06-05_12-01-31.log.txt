@@ -1,0 +1,87 @@
+>2015-06-05_12-01-31;app;pantalla de carga
+>2015-06-05_12-01-38;app;pantalla de tarificacion extra
+>2015-06-05_12-03-58;app;pantalla de carga
+>2015-06-05_12-04-01;app;pantalla de tarificacion extra
+>2015-06-05_12-15-00;app;pantalla de carga
+>2015-06-05_12-15-03;app;pantalla de tarificacion extra
+>2015-06-05_12-15-09;app;iniciada IMEI:868496016956808
+>2015-06-05_12-15-09;caidas;servicio iniciado
+>2015-06-05_12-15-09;zona segura;servicio iniciado
+>2015-06-05_12-15-09;bateria;reciver activo
+>2015-06-05_12-15-09;bateria;monitor iniciado
+>2015-06-05_12-15-09;bateria;nivel: 61 estado: Descargando tasa de refresco: 4
+>2015-06-05_12-15-28;boton;modo ducha pulsado
+>2015-06-05_12-15-30;modo ducha;iniciado con minutos : 15
+>2015-06-05_12-15-56;boton;alerta pulsado
+>2015-06-05_12-15-59;boton;alerta pulsado
+>2015-06-05_12-15-59;boton;alerta pulsado cuenta atras cancelada
+>2015-06-05_12-16-00;boton;modo ducha pulsado
+>2015-06-05_12-16-02;modo ducha;iniciado con minutos : 15
+>2015-06-05_12-16-15;boton;modo ducha pulsado
+>2015-06-05_12-16-27;modo ducha;iniciado con minutos : 5
+>2015-06-05_12-16-52;boton;modo ducha pulsado
+>2015-06-05_12-16-56;modo ducha;iniciado con minutos : 5
+>2015-06-05_12-17-01;boton;modo ducha pulsado
+>2015-06-05_12-17-30;modo ducha;iniciado con minutos : 6
+>2015-06-05_12-19-00;aviso;golpe
+>2015-06-05_12-20-03;boton;contactos pulsado
+>2015-06-05_12-20-03;configuracion;personas contacto
+>2015-06-05_12-20-23;boton;contactos pulsado
+>2015-06-05_12-20-23;configuracion;personas contacto
+>2015-06-05_12-20-50;boton;contactos pulsado
+>2015-06-05_12-20-50;configuracion;personas contacto
+>2015-06-05_12-20-59;boton;contactos pulsado
+>2015-06-05_12-20-59;configuracion;personas contacto
+>2015-06-05_12-21-51;boton;contactos pulsado
+>2015-06-05_12-21-51;configuracion;personas contacto
+>2015-06-05_12-22-14;boton;tranquilidad pulsado
+>2015-06-05_12-22-14;aviso;tranquilidad
+>2015-06-05_12-22-14;SMS;enviado:[ Juana Armenta Garcia comunica que se encuentra bien a las 05/06/15:12:22:14 en posicion ( https://maps.google.com/?q=37.8676375,-4.7737324 )]
+>2015-06-05_12-22-21;boton;tranquilidad pulsado
+>2015-06-05_12-22-21;aviso;tranquilidad
+>2015-06-05_12-22-21;SMS;enviado:[ Juana Armenta Garcia comunica que se encuentra bien a las 05/06/15:12:22:21 en posicion ( https://maps.google.com/?q=37.8676375,-4.7737324 )]
+>2015-06-05_12-22-32;boton;tranquilidad pulsado
+>2015-06-05_12-22-32;aviso;tranquilidad
+>2015-06-05_12-22-32;SMS;enviado:[ Juana Armenta Garcia comunica que se encuentra bien a las 05/06/15:12:22:32 en posicion ( https://maps.google.com/?q=37.8676376,-4.7737295 )]
+>2015-06-05_12-22-50;boton;llamada pulsado
+>2015-06-05_12-22-50;boton;llamada llamando contacto
+>2015-06-05_12-23-30;boton;llamada pulsado
+>2015-06-05_12-23-30;boton;llamada llamando contacto
+>2015-06-05_12-23-41;boton;llamada pulsado
+>2015-06-05_12-23-41;boton;llamada llamando contacto
+>2015-06-05_12-23-46;boton;llamada pulsado
+>2015-06-05_12-23-46;boton;llamada llamando contacto
+>2015-06-05_12-24-10;boton;llamada pulsado
+>2015-06-05_12-24-10;boton;llamada llamando contacto
+>2015-06-05_12-25-27;boton;tranquilidad pulsado
+>2015-06-05_12-25-27;aviso;tranquilidad
+>2015-06-05_12-25-27;SMS;enviado:[ Juana Armenta Garcia comunica que se encuentra bien a las 05/06/15:12:25:27 en posicion ( https://maps.google.com/?q=37.8676378,-4.7737321 )]
+>2015-06-05_12-25-38;boton;contactos pulsado
+>2015-06-05_12-25-38;configuracion;personas contacto
+>2015-06-05_12-31-41;boton;configuracion pulsado
+>2015-06-05_12-31-42;configuracion;opciones usuario
+>2015-06-05_12-31-47;configuracion;zona segura
+>2015-06-05_12-37-15;boton;configuracion pulsado
+>2015-06-05_12-37-15;configuracion;opciones usuario
+>2015-06-05_12-38-33;app;cerrada
+>2015-06-05_12-38-36;app;pantalla de carga
+>2015-06-05_12-38-39;app;iniciada IMEI:868496016956808
+>2015-06-05_12-38-39;caidas;servicio iniciado
+>2015-06-05_12-38-39;zona segura;servicio no iniciado
+>2015-06-05_12-38-39;bateria;reciver activo
+>2015-06-05_12-38-39;bateria;monitor iniciado
+>2015-06-05_12-38-39;bateria;nivel: 57 estado: Descargando tasa de refresco: 4
+>2015-06-05_12-43-20;boton;alerta pulsado
+>2015-06-05_12-43-22;boton;alerta pulsado
+>2015-06-05_12-43-22;boton;alerta pulsado cuenta atras cancelada
+>2015-06-05_12-44-01;boton;configuracion pulsado
+>2015-06-05_12-44-01;configuracion;opciones usuario
+>2015-06-05_12-44-48;app;pantalla de carga
+>2015-06-05_12-44-51;app;iniciada IMEI:868496016956808
+>2015-06-05_12-44-51;caidas;servicio iniciado
+>2015-06-05_12-44-51;zona segura;servicio no iniciado
+>2015-06-05_12-44-51;bateria;reciver activo
+>2015-06-05_12-44-51;bateria;monitor iniciado
+>2015-06-05_12-44-51;bateria;nivel: 57 estado: Descargando tasa de refresco: 4
+>2015-06-05_12-44-59;app;cerrada
+>2015-06-05_12-45-01;app;cerrada

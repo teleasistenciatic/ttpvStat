@@ -1,0 +1,14 @@
+>2015-06-04_12-34-40;app;pantalla de carga
+>2015-06-04_12-34-44;app;pantalla de tarificacion extra
+>2015-06-04_12-34-47;app;iniciada IMEI:356134060117931
+>2015-06-04_12-34-48;caidas;servicio iniciado
+>2015-06-04_12-34-48;zona segura;servicio iniciado
+>2015-06-04_12-34-48;bateria;reciver activo
+>2015-06-04_12-34-48;bateria;monitor iniciado
+>2015-06-04_12-34-48;bateria;nivel: 20 estado: Descargando tasa de refresco: 4
+>2015-06-04_12-34-48;bateria;notificacion bateria baja
+>2015-06-04_12-34-52;boton;tranquilidad pulsado
+>2015-06-04_12-34-52;aviso;tranquilidad
+>2015-06-04_12-34-52;SMS;enviado:[ tomas herman alcantara comunica que se encuentra bien a las 04/06/15:12:34:52 en posicion ( https://maps.google.com/?q=37.8871711,-4.7769088 )]
+>2015-06-04_12-35-09;app;cerrada
+

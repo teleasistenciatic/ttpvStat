@@ -1,0 +1,10 @@
+>2015-06-10_09-59-37;app;pantalla de carga
+>2015-06-10_09-59-40;app;iniciada IMEI:868496016956808
+>2015-06-10_09-59-41;caidas;servicio iniciado
+>2015-06-10_09-59-41;zona segura;servicio no iniciado
+>2015-06-10_09-59-41;bateria;reciver activo
+>2015-06-10_09-59-41;bateria;monitor iniciado
+>2015-06-10_09-59-41;bateria;nivel: 88 estado: Descargando tasa de refresco: 4
+>2015-06-10_09-59-45;boton;modo ducha pulsado
+>2015-06-10_09-59-51;modo ducha;iniciado con minutos : 15
+>2015-06-10_11-09-03;app;cerrada

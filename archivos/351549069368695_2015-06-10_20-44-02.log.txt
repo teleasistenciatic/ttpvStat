@@ -1,0 +1,81 @@
+>2015-06-10_20-44-02;app;pantalla de carga
+>2015-06-10_20-44-05;app;pantalla de tarificacion extra
+>2015-06-10_20-44-12;app;pantalla de carga
+>2015-06-10_20-44-15;app;pantalla de tarificacion extra
+>2015-06-10_20-44-33;app;pantalla de carga
+>2015-06-10_20-44-36;app;pantalla de tarificacion extra
+>2015-06-10_20-44-49;app;iniciada IMEI:351549069368695
+>2015-06-10_20-44-49;caidas;servicio iniciado
+>2015-06-10_20-44-49;zona segura;servicio no iniciado
+>2015-06-10_20-44-49;bateria;reciver activo
+>2015-06-10_20-44-49;bateria;monitor iniciado
+>2015-06-10_20-44-49;bateria;nivel: 72 estado: Descargando tasa de refresco: 4
+>2015-06-10_20-44-49;configuracion;datos personales
+>2015-06-10_23-13-04;app;pantalla de carga
+>2015-06-10_23-13-08;app;iniciada IMEI:351549069368695
+>2015-06-10_23-13-08;caidas;servicio iniciado
+>2015-06-10_23-13-08;zona segura;servicio no iniciado
+>2015-06-10_23-13-08;bateria;reciver activo
+>2015-06-10_23-13-08;bateria;monitor iniciado
+>2015-06-10_23-13-08;bateria;nivel: 100 estado: Llena tasa de refresco: 4
+>2015-06-10_23-13-08;configuracion;datos personales
+>2015-06-11_09-19-29;app;pantalla de carga
+>2015-06-11_09-19-32;app;iniciada IMEI:351549069368695
+>2015-06-11_09-19-32;caidas;servicio iniciado
+>2015-06-11_09-19-32;zona segura;servicio no iniciado
+>2015-06-11_09-19-32;bateria;reciver activo
+>2015-06-11_09-19-32;bateria;monitor iniciado
+>2015-06-11_09-19-32;bateria;nivel: 74 estado: Descargando tasa de refresco: 4
+>2015-06-11_09-19-32;configuracion;datos personales
+>2015-06-11_09-19-48;app;cerrada
+>2015-06-11_09-19-55;app;cerrada
+>2015-06-11_09-20-49;boton;tranquilidad pulsado
+>2015-06-11_09-20-49;aviso;tranquilidad
+>2015-06-11_09-20-49;SMS;enviado:[TELEASISTENCI@TIC+:   comunica que se encuentra bien a las 11/06/15:09:20:49]
+>2015-06-11_09-20-54;app;cerrada
+>2015-06-11_09-22-33;app;pantalla de carga
+>2015-06-11_09-22-36;app;iniciada IMEI:351549069368695
+>2015-06-11_09-22-36;caidas;servicio iniciado
+>2015-06-11_09-22-36;zona segura;servicio no iniciado
+>2015-06-11_09-22-36;bateria;reciver activo
+>2015-06-11_09-22-36;bateria;monitor iniciado
+>2015-06-11_09-22-36;bateria;nivel: 73 estado: Descargando tasa de refresco: 4
+>2015-06-11_09-22-36;configuracion;datos personales
+>2015-06-11_09-23-32;app;cerrada
+>2015-06-11_09-23-48;app;pantalla de carga
+>2015-06-11_09-23-52;app;iniciada IMEI:351549069368695
+>2015-06-11_09-23-52;caidas;servicio iniciado
+>2015-06-11_09-23-52;zona segura;servicio no iniciado
+>2015-06-11_09-23-52;bateria;reciver activo
+>2015-06-11_09-23-52;bateria;monitor iniciado
+>2015-06-11_09-23-52;bateria;nivel: 73 estado: Descargando tasa de refresco: 4
+>2015-06-11_09-23-52;configuracion;datos personales
+>2015-06-11_09-24-17;app;cerrada
+>2015-06-11_09-24-50;app;pantalla de carga
+>2015-06-11_09-24-53;app;iniciada IMEI:351549069368695
+>2015-06-11_09-24-53;caidas;servicio iniciado
+>2015-06-11_09-24-53;zona segura;servicio no iniciado
+>2015-06-11_09-24-53;bateria;reciver activo
+>2015-06-11_09-24-53;bateria;monitor iniciado
+>2015-06-11_09-24-53;bateria;nivel: 73 estado: Descargando tasa de refresco: 4
+>2015-06-11_09-24-53;configuracion;datos personales
+>2015-06-11_09-25-18;app;cerrada
+>2015-06-11_09-25-23;app;pantalla de carga
+>2015-06-11_09-25-26;app;iniciada IMEI:351549069368695
+>2015-06-11_09-25-26;caidas;servicio iniciado
+>2015-06-11_09-25-26;zona segura;servicio no iniciado
+>2015-06-11_09-25-26;bateria;reciver activo
+>2015-06-11_09-25-26;bateria;monitor iniciado
+>2015-06-11_09-25-26;bateria;nivel: 73 estado: Descargando tasa de refresco: 4
+>2015-06-11_09-25-26;configuracion;datos personales
+>2015-06-11_09-25-48;app;cerrada
+>2015-06-11_09-25-49;app;pantalla de carga
+>2015-06-11_09-25-52;app;iniciada IMEI:351549069368695
+>2015-06-11_09-25-52;caidas;servicio iniciado
+>2015-06-11_09-25-52;zona segura;servicio no iniciado
+>2015-06-11_09-25-52;bateria;reciver activo
+>2015-06-11_09-25-52;bateria;monitor iniciado
+>2015-06-11_09-25-52;bateria;nivel: 72 estado: Descargando tasa de refresco: 4
+>2015-06-11_09-25-52;configuracion;datos personales
+>2015-06-11_09-26-34;app;cerrada
+

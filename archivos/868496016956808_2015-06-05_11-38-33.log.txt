@@ -1,0 +1,275 @@
+>2015-06-05_11-38-33;app;pantalla de carga
+>2015-06-05_11-38-38;app;pantalla de tarificacion extra
+>2015-06-05_11-38-41;app;iniciada IMEI:868496016956808
+>2015-06-05_11-38-42;caidas;no existe preferencia, servicio iniciado
+>2015-06-05_11-38-42;zona segura;servicio no iniciado
+>2015-06-05_11-38-42;bateria;reciver activo
+>2015-06-05_11-38-42;bateria;monitor iniciado
+>2015-06-05_11-38-43;bateria;nivel: 71 estado: Descargando tasa de refresco: 4
+>2015-06-05_11-38-43;configuracion;datos personales
+>2015-06-05_11-40-11;appSharedPreferences;nombre y apellidos creados : ejemplo-ejemplo
+>2015-06-05_11-40-11;configuracion;personas contacto
+>2015-06-05_11-40-58;appSharedPreferences;contactos creados : -_-_-
+>2015-06-05_11-46-50;app;pantalla de carga
+>2015-06-05_11-46-53;app;pantalla de tarificacion extra
+>2015-06-05_11-46-55;app;iniciada IMEI:868496016956808
+>2015-06-05_11-46-55;caidas;servicio iniciado
+>2015-06-05_11-46-55;zona segura;servicio no iniciado
+>2015-06-05_11-46-55;bateria;reciver activo
+>2015-06-05_11-46-55;bateria;monitor iniciado
+>2015-06-05_11-46-55;bateria;nivel: 71 estado: Descargando tasa de refresco: 4
+>2015-06-05_11-46-56;configuracion;personas contacto
+>2015-06-05_11-47-01;appSharedPreferences;contactos creados : Felisa-646 39 51 18_-_-
+>2015-06-05_11-47-04;boton;configuracion pulsado
+>2015-06-05_11-47-05;configuracion;opciones usuario
+>2015-06-05_11-47-06;configuracion;datos personales
+>2015-06-05_11-47-49;appSharedPreferences;nombre y apellidos creados : Juana-Armenta Garcia
+>2015-06-05_11-48-30;configuracion;caidas
+>2015-06-05_11-48-34;configuracion;zona segura
+>2015-06-05_11-49-14;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,10.0
+>2015-06-05_11-49-16;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,3680.0
+>2015-06-05_11-49-16;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,3680.0
+>2015-06-05_11-49-16;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2910.0
+>2015-06-05_11-49-16;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2910.0
+>2015-06-05_11-49-16;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2460.0
+>2015-06-05_11-49-16;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2460.0
+>2015-06-05_11-49-16;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2220.0
+>2015-06-05_11-49-16;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2220.0
+>2015-06-05_11-49-17;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2120.0
+>2015-06-05_11-49-17;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2120.0
+>2015-06-05_11-49-17;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2080.0
+>2015-06-05_11-49-17;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2080.0
+>2015-06-05_11-49-17;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2060.0
+>2015-06-05_11-49-17;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2060.0
+>2015-06-05_11-49-17;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2040.0
+>2015-06-05_11-49-17;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2040.0
+>2015-06-05_11-49-18;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2080.0
+>2015-06-05_11-49-18;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,2080.0
+>2015-06-05_11-49-18;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1880.0
+>2015-06-05_11-49-18;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1880.0
+>2015-06-05_11-49-18;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1590.0
+>2015-06-05_11-49-18;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1590.0
+>2015-06-05_11-49-18;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1470.0
+>2015-06-05_11-49-18;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1470.0
+>2015-06-05_11-49-18;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1450.0
+>2015-06-05_11-49-18;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1450.0
+>2015-06-05_11-49-18;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1410.0
+>2015-06-05_11-49-18;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1410.0
+>2015-06-05_11-49-19;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1450.0
+>2015-06-05_11-49-19;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1450.0
+>2015-06-05_11-49-19;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1430.0
+>2015-06-05_11-49-19;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1430.0
+>2015-06-05_11-49-25;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1270.0
+>2015-06-05_11-49-25;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1270.0
+>2015-06-05_11-49-26;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1330.0
+>2015-06-05_11-49-26;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1330.0
+>2015-06-05_11-49-26;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1430.0
+>2015-06-05_11-49-26;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1430.0
+>2015-06-05_11-49-26;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1490.0
+>2015-06-05_11-49-26;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1490.0
+>2015-06-05_11-49-26;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1510.0
+>2015-06-05_11-49-26;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1510.0
+>2015-06-05_11-49-47;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1250.0
+>2015-06-05_11-49-47;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1250.0
+>2015-06-05_11-49-47;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1110.0
+>2015-06-05_11-49-47;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1110.0
+>2015-06-05_11-49-47;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1050.0
+>2015-06-05_11-49-47;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,1050.0
+>2015-06-05_11-49-47;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,950.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,950.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,850.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,850.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,780.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,780.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,720.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,720.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,680.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,680.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,640.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,640.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,600.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,600.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,580.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,580.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,560.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,560.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,520.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,520.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,500.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,500.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,480.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,480.0
+>2015-06-05_11-49-48;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,440.0
+>2015-06-05_11-49-49;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,440.0
+>2015-06-05_11-49-49;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,340.0
+>2015-06-05_11-49-49;zona segura;zona segura establecida: 37.867497304669314,-4.773672558367252,340.0
+>2015-06-05_11-49-58;zona segura;zona segura establecida: 37.868158,-4.773851,340.0
+>2015-06-05_11-49-59;zona segura;zona segura establecida: 37.868158,-4.773851,200.0
+>2015-06-05_11-49-59;zona segura;zona segura establecida: 37.868158,-4.773851,200.0
+>2015-06-05_11-49-59;zona segura;zona segura establecida: 37.868158,-4.773851,320.0
+>2015-06-05_11-49-59;zona segura;zona segura establecida: 37.868158,-4.773851,320.0
+>2015-06-05_11-49-59;zona segura;zona segura establecida: 37.868158,-4.773851,420.0
+>2015-06-05_11-49-59;zona segura;zona segura establecida: 37.868158,-4.773851,420.0
+>2015-06-05_11-49-59;zona segura;zona segura establecida: 37.868158,-4.773851,540.0
+>2015-06-05_11-49-59;zona segura;zona segura establecida: 37.868158,-4.773851,540.0
+>2015-06-05_11-49-59;zona segura;zona segura establecida: 37.868158,-4.773851,640.0
+>2015-06-05_11-49-59;zona segura;zona segura establecida: 37.868158,-4.773851,640.0
+>2015-06-05_11-49-59;zona segura;zona segura establecida: 37.868158,-4.773851,850.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,850.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,890.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,890.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,910.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,910.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,870.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,870.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,780.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,780.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,760.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,760.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,720.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,720.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,660.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,660.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,380.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,380.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,200.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,200.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,60.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,60.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,20.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,20.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,10.0
+>2015-06-05_11-50-00;zona segura;zona segura establecida: 37.868158,-4.773851,10.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,20.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,20.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,40.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,40.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,80.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,80.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,100.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,100.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,140.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,140.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,180.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,180.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,200.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,200.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,220.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,220.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,260.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,260.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,300.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,300.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,320.0
+>2015-06-05_11-50-02;zona segura;zona segura establecida: 37.868158,-4.773851,320.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,280.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,280.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,260.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,260.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,240.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,240.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,200.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,200.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,160.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,160.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,120.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,120.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,100.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,100.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,80.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,80.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,60.0
+>2015-06-05_11-50-03;zona segura;zona segura establecida: 37.868158,-4.773851,60.0
+>2015-06-05_11-50-04;zona segura;zona segura establecida: 37.868158,-4.773851,100.0
+>2015-06-05_11-50-04;zona segura;zona segura establecida: 37.868158,-4.773851,100.0
+>2015-06-05_11-50-04;zona segura;zona segura establecida: 37.868158,-4.773851,120.0
+>2015-06-05_11-50-04;zona segura;zona segura establecida: 37.868158,-4.773851,120.0
+>2015-06-05_11-50-04;zona segura;zona segura establecida: 37.868158,-4.773851,140.0
+>2015-06-05_11-50-04;zona segura;zona segura establecida: 37.868158,-4.773851,140.0
+>2015-06-05_11-50-05;zona segura;zona segura establecida: 37.868158,-4.773851,160.0
+>2015-06-05_11-50-05;zona segura;zona segura establecida: 37.868158,-4.773851,160.0
+>2015-06-05_11-50-05;zona segura;zona segura establecida: 37.868158,-4.773851,120.0
+>2015-06-05_11-50-05;zona segura;zona segura establecida: 37.868158,-4.773851,120.0
+>2015-06-05_11-50-06;zona segura;zona segura establecida: 37.868158,-4.773851,100.0
+>2015-06-05_11-50-06;zona segura;zona segura establecida: 37.868158,-4.773851,100.0
+>2015-06-05_11-50-07;zona segura;zona segura establecida: 37.868158,-4.773851,140.0
+>2015-06-05_11-50-07;zona segura;zona segura establecida: 37.868158,-4.773851,140.0
+>2015-06-05_11-50-07;zona segura;zona segura establecida: 37.868158,-4.773851,160.0
+>2015-06-05_11-50-07;zona segura;zona segura establecida: 37.868158,-4.773851,160.0
+>2015-06-05_11-50-07;zona segura;zona segura establecida: 37.868158,-4.773851,180.0
+>2015-06-05_11-50-07;zona segura;zona segura establecida: 37.868158,-4.773851,180.0
+>2015-06-05_11-50-07;zona segura;zona segura establecida: 37.868158,-4.773851,200.0
+>2015-06-05_11-50-07;zona segura;zona segura establecida: 37.868158,-4.773851,200.0
+>2015-06-05_11-50-07;zona segura;zona segura establecida: 37.868158,-4.773851,180.0
+>2015-06-05_11-50-07;zona segura;zona segura establecida: 37.868158,-4.773851,180.0
+>2015-06-05_11-50-12;zona segura;zona segura establecida: 37.868158,-4.773851,40.0
+>2015-06-05_11-50-12;zona segura;zona segura establecida: 37.868158,-4.773851,40.0
+>2015-06-05_11-50-13;zona segura;zona segura establecida: 37.868158,-4.773851,140.0
+>2015-06-05_11-50-13;zona segura;zona segura establecida: 37.868158,-4.773851,140.0
+>2015-06-05_11-50-13;zona segura;zona segura establecida: 37.868158,-4.773851,200.0
+>2015-06-05_11-50-13;zona segura;zona segura establecida: 37.868158,-4.773851,200.0
+>2015-06-05_11-50-13;zona segura;zona segura establecida: 37.868158,-4.773851,240.0
+>2015-06-05_11-50-13;zona segura;zona segura establecida: 37.868158,-4.773851,240.0
+>2015-06-05_11-50-13;zona segura;zona segura establecida: 37.868158,-4.773851,380.0
+>2015-06-05_11-50-13;zona segura;zona segura establecida: 37.868158,-4.773851,380.0
+>2015-06-05_11-50-14;zona segura;zona segura establecida: 37.868158,-4.773851,440.0
+>2015-06-05_11-50-14;zona segura;zona segura establecida: 37.868158,-4.773851,440.0
+>2015-06-05_11-50-14;zona segura;zona segura establecida: 37.868158,-4.773851,460.0
+>2015-06-05_11-50-14;zona segura;zona segura establecida: 37.868158,-4.773851,460.0
+>2015-06-05_11-50-14;zona segura;zona segura establecida: 37.868158,-4.773851,500.0
+>2015-06-05_11-50-14;zona segura;zona segura establecida: 37.868158,-4.773851,500.0
+>2015-06-05_11-50-14;zona segura;zona segura establecida: 37.868158,-4.773851,520.0
+>2015-06-05_11-50-14;zona segura;zona segura establecida: 37.868158,-4.773851,520.0
+>2015-06-05_11-50-14;zona segura;zona segura establecida: 37.868158,-4.773851,540.0
+>2015-06-05_11-50-14;zona segura;zona segura establecida: 37.868158,-4.773851,540.0
+>2015-06-05_11-50-14;zona segura;zona segura establecida: 37.868158,-4.773851,560.0
+>2015-06-05_11-50-14;zona segura;zona segura establecida: 37.868158,-4.773851,560.0
+>2015-06-05_11-50-15;zona segura;zona segura establecida: 37.868158,-4.773851,580.0
+>2015-06-05_11-50-15;zona segura;zona segura establecida: 37.868158,-4.773851,580.0
+>2015-06-05_11-50-15;zona segura;zona segura establecida: 37.868158,-4.773851,600.0
+>2015-06-05_11-50-15;zona segura;zona segura establecida: 37.868158,-4.773851,600.0
+>2015-06-05_11-50-15;zona segura;zona segura establecida: 37.868158,-4.773851,620.0
+>2015-06-05_11-50-15;zona segura;zona segura establecida: 37.868158,-4.773851,620.0
+>2015-06-05_11-50-15;zona segura;zona segura establecida: 37.868158,-4.773851,640.0
+>2015-06-05_11-50-15;zona segura;zona segura establecida: 37.868158,-4.773851,640.0
+>2015-06-05_11-50-16;zona segura;zona segura establecida: 37.868158,-4.773851,660.0
+>2015-06-05_11-50-16;zona segura;zona segura establecida: 37.868158,-4.773851,660.0
+>2015-06-05_11-50-16;zona segura;zona segura establecida: 37.868158,-4.773851,680.0
+>2015-06-05_11-50-16;zona segura;zona segura establecida: 37.868158,-4.773851,680.0
+>2015-06-05_11-50-16;zona segura;zona segura establecida: 37.868158,-4.773851,720.0
+>2015-06-05_11-50-16;zona segura;zona segura establecida: 37.868158,-4.773851,720.0
+>2015-06-05_11-50-16;zona segura;zona segura establecida: 37.868158,-4.773851,800.0
+>2015-06-05_11-50-16;zona segura;zona segura establecida: 37.868158,-4.773851,800.0
+>2015-06-05_11-50-16;zona segura;zona segura establecida: 37.868158,-4.773851,870.0
+>2015-06-05_11-50-16;zona segura;zona segura establecida: 37.868158,-4.773851,870.0
+>2015-06-05_11-50-17;zona segura;zona segura establecida: 37.868158,-4.773851,890.0
+>2015-06-05_11-50-17;zona segura;zona segura establecida: 37.868158,-4.773851,890.0
+>2015-06-05_11-50-17;zona segura;zona segura establecida: 37.868158,-4.773851,910.0
+>2015-06-05_11-50-17;zona segura;zona segura establecida: 37.868158,-4.773851,910.0
+>2015-06-05_11-50-18;zona segura;zona segura establecida: 37.868158,-4.773851,950.0
+>2015-06-05_11-50-18;zona segura;zona segura establecida: 37.868158,-4.773851,950.0
+>2015-06-05_11-50-18;zona segura;zona segura establecida: 37.868158,-4.773851,1030.0
+>2015-06-05_11-50-18;zona segura;zona segura establecida: 37.868158,-4.773851,1030.0
+>2015-06-05_11-50-18;zona segura;zona segura establecida: 37.868158,-4.773851,1050.0
+>2015-06-05_11-50-18;zona segura;zona segura establecida: 37.868158,-4.773851,1050.0
+>2015-06-05_11-50-18;zona segura;zona segura establecida: 37.868158,-4.773851,1070.0
+>2015-06-05_11-50-18;zona segura;zona segura establecida: 37.868158,-4.773851,1070.0
+>2015-06-05_11-50-19;zona segura;zona segura establecida: 37.868158,-4.773851,1030.0
+>2015-06-05_11-50-19;zona segura;zona segura establecida: 37.868158,-4.773851,1030.0
+>2015-06-05_11-50-19;zona segura;zona segura establecida: 37.868158,-4.773851,1050.0
+>2015-06-05_11-50-19;zona segura;zona segura establecida: 37.868158,-4.773851,1050.0
+>2015-06-05_11-50-19;zona segura;zona segura establecida: 37.868158,-4.773851,1010.0
+>2015-06-05_11-50-19;zona segura;zona segura establecida: 37.868158,-4.773851,1010.0
+>2015-06-05_11-50-19;zona segura;zona segura establecida: 37.868158,-4.773851,990.0
+>2015-06-05_11-50-19;zona segura;zona segura establecida: 37.868158,-4.773851,990.0
+>2015-06-05_11-50-20;zona segura;zona segura establecida: 37.868158,-4.773851,970.0
+>2015-06-05_11-50-20;zona segura;zona segura establecida: 37.868158,-4.773851,970.0
+>2015-06-05_11-51-01;configuracion;bateria
+>2015-06-05_11-51-09;bateria;reciver activo
+>2015-06-05_11-51-40;app;cerrada
+>2015-06-05_11-51-43;menu;boton salir pulsado
+>2015-06-05_11-51-44;app;cerrada
+>2015-06-05_11-53-19;app;pantalla de carga
+>2015-06-05_11-53-22;app;pantalla de tarificacion extra
+>2015-06-05_11-54-09;app;pantalla de carga
+>2015-06-05_11-54-12;app;pantalla de tarificacion extra

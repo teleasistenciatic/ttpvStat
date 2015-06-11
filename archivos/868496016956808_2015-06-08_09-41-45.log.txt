@@ -1,0 +1,9 @@
+>2015-06-08_09-41-45;app;pantalla de carga
+>2015-06-08_09-41-49;app;iniciada IMEI:868496016956808
+>2015-06-08_09-41-49;caidas;servicio iniciado
+>2015-06-08_09-41-49;zona segura;servicio no iniciado
+>2015-06-08_09-41-49;bateria;reciver activo
+>2015-06-08_09-41-49;bateria;monitor iniciado
+>2015-06-08_09-41-49;bateria;nivel: 45 estado: Descargando tasa de refresco: 4
+>2015-06-08_09-41-56;boton;contactos pulsado
+>2015-06-08_09-41-57;configuracion;personas contacto

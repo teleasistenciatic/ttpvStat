@@ -1,287 +1,213 @@
-﻿<?php
+<?php
 
 /* Esta clase es la responsable de acceder a los archivos en texto plano y procesar su información. */
-class Gestor {
+class Gestor2 {
 	
 	private $path="../archivos";	//direccion a la carpeta que contiene los archivos.
 	private $losnombres = array();	 //array de nombres de los archivos.
 	
+	private $vectorTiempos = array(); //uso diario.
+	private $vectorSMS = array(); //sms enviados
+	private $vectorDucha = array(); //modo ducha.
+	private $vectorAlerta = array(); //avisos de boton rojo.
+	private $vectorTranquilidad = array(); //avisos de boton verde.
+	private $vectorBateria = array(); //avisos de bateria baja.
+	private $vectorZona = array(); //avisos de zona segura.
+	private $vectorRed = array(); //avisos de red neuronal.
+	
 	function __construct() {
        $this->losnombres = $this->getNombres();
-    }
-		
-	
-	//Devuelve el tiempo de uso de la app por movil y día.
-	function getUsoDiario(){
-		$losimeis = $this->getImeis();
-		$vectortiempoImei = array(); //vector de tiempos.
-		foreach($losimeis as $key => $valor){
-			$vectortiempoImei[$valor] = 0;
-		}
-		//recorrer el directorio para analizar cada archivo
-		$directorio2 = opendir($this->path);
-		while ($archivo2 = readdir($directorio2)){  //obtenemos un archivo y luego otro sucesivamente
-			if (is_dir($archivo2)){}else{  //verificamos si es o no un directorio
-		
-				$tiempoInicio=0;
-				$tiempoFin=0;		
-				$pathArchivo = "../archivos/".$archivo2;
-				if( ($gestor = fopen($pathArchivo, "r") ) !== FALSE){
-					while( ($datos = fgetcsv($gestor,1000,";") ) !== FALSE){			
-						if( $tiempoInicio == 0) $tiempoInicio =substr( $datos[0] , 1);
-						$tiempoFin = substr( $datos[0] ,1);
-					}
-					fclose($gestor);
-				}	
-				
-				$date1 = DateTime::createFromFormat('Y-m-d_H-i-s',$tiempoInicio);
-				$date2 = DateTime::createFromFormat('Y-m-d_H-i-s',$tiempoFin);
-		
-				$diff = $date2->diff($date1);			
-				$indice = substr($archivo2,0,15); //capturo valor de imei 
-				$vectortiempoImei[$indice] += $diff->s;
-			}	
-		}
-		closedir($directorio2);
-		return $vectortiempoImei;
-	}
-	
-	/**
-	 * Devuelve un array con el uso de los botones para cada movil y dia
-	 */
-	function getBotonesPulsados(){
-		$losimeisydias = $this->getImeisDia();
-		$vectorPulsacionBoton = array(); //vector de veces que se pulsa boton.
-		foreach($losimeisydias as $key => $valor){
-			$vectorPulsacionBoton[$valor] = array();
-		}
-		
-		//para cada fichero buscar datos de boton.
-		foreach($this->losnombres as $nombre){
-			$direc = $this->path."/".$nombre;
-			$datoscsv = $this->getArchivo($direc); //contiene toda la informacion de un fichero como array. 
-			$indice = substr($nombre,0,26); //capturo valor de imei y dia
-			for($i=0;$i<count($datoscsv);$i++){ //para cada linea				
-				if( $datoscsv[$i][1]== "boton" ){
-					$vectorPulsacionBoton[$indice][] = $datoscsv[$i][2]; //almaceno en un array cada tipo de pulsacion. Dentro de su imei y dia.
-				}				
-			}		
-		}
-		
-		foreach($vectorPulsacionBoton as $key => $valor){
-			$res = array_count_values($vectorPulsacionBoton[$key]); //cuento cuantos hay de cada tipo para cada imei y dia
-			$vectorPulsacionBoton[$key] = $res ;
-		}
-		
-		return $vectorPulsacionBoton;
-	}
-	
-	/**
-	 * Devuelve un array con los avisos relacionados con la red neuronal 	 
-	 */
-	 function getAvisosRedNeuronal(){
-		$losimei = $this->getImeis();
-		$vectorred=array(); //vector para guardar los datos de avisos de red neuronal
-		$contador = array();
-		$contador["caida"]=0;
-		$contador["sentado"]=0;
-		$contador["golpe"]=0;
-		$contador["correr"]=0;
-		foreach($losimei as $key => $valor ){ 		
-			$vectorred[$valor] = $contador;
-		}
-		
-		//para cada fichero buscar datos de avisos. de los 4 tipos.
-		foreach($this->losnombres as $nombre){
-		
-			$direc = $this->path."/".$nombre;
-
-			$datoscsv = $this->getArchivo($direc); //contiene toda la informacion de un fichero como array. 
-			$indice = substr($nombre,0,15); //capturo valor de imei y dia
-		    for($i=0;$i<count($datoscsv);$i++){ //para cada linea		
-				if( $datoscsv[$i][2] == "caida" ){
-					$vectorred[$indice]["caida"]++;
-				}
-				if( $datoscsv[$i][2] == "correr" ){
-					$vectorred[$indice]["correr"]++;
-				}
-				if( $datoscsv[$i][2] == "golpe" ){
-					$vectorred[$indice]["golpe"]++;
-				}
-				if( $datoscsv[$i][2] == "sentado" ){
-					$vectorred[$indice]["sentado"]++;
-				}
-			}		
-		}
-		return $vectorred;		
-	 }
-	 
-	 /**
-	  * Devuelve los sms enviados por cada movil 
-	  */
-	 function getSMSenviados(){
-		 $losimei = $this->getImeis();
-		 $vectorSMS=array();
-		 foreach($losimei as $key => $valor){
-			$vectorSMS[$valor] = 0;
-		 }	
-
-		 //para cada fichero cuento cuantos sms se han enviado y los guardo donde corresponda.
-		 foreach($this->losnombres as $nombre){
-			$direc = $this->path."/".$nombre;
-			$datoscsv = $this->getArchivo($direc); 
-			$indice=substr($nombre,0,15);
-			for($i=0;$i<count($datoscsv);$i++){ //para cada linea
-				if( $datoscsv[$i][1] == "SMS" ){
-					$pos = strpos($datoscsv[$i][2],"enviado");
-					if( $pos === false){
-						//no es enviado
-					}else{
-						$vectorSMS[$indice]++;
-					}
-				}
-			}
-		}
-		return $vectorSMS;	 
-	 }
-	 
-	 /**
-	  * Devuelve los avisos de tranquilidad generados por cada movil 
-	  */
-	 function getAvisoTranquilidad(){
-		 $losimei = $this->getImeis();
-		 $vectorTranquilidad=array();
-		 foreach($losimei as $key => $valor){
-			$vectorTranquilidad[$valor] = 0;
-		 }	
-
-		 //para cada fichero cuento cuantos avisos de tranquilidad se han enviado y los guardo donde corresponda.
-		 foreach($this->losnombres as $nombre){
-			$direc = $this->path."/".$nombre;
-			$datoscsv = $this->getArchivo($direc); 
-			$indice=substr($nombre,0,15); //para cada movil
-			for($i=0;$i<count($datoscsv);$i++){ //para cada linea
-				if( $datoscsv[$i][1] == "aviso" && $datoscsv[$i][2]=="tranquilidad" ){
-					$vectorTranquilidad[$indice]++;
-				}
-			}			
-		}
-		return $vectorTranquilidad;
-	 }
-	 
-	 /**
-	  * Devuelve los avisos de alerta generados por cada movil -> envios de sms de boton rojo
-	  */
-    function getAvisoAlerta(){
-		 $losimei = $this->getImeis();
-		 $vector=array();
-		 foreach($losimei as $key => $valor){
-			$vector[$valor] = 0;
-		 }	
-
-		 //para cada fichero cuento cuantos avisos de alerta se han enviado y los guardo donde corresponda.
-		 foreach($this->losnombres as $nombre){
-			$direc = $this->path."/".$nombre;
-			$datoscsv = $this->getArchivo($direc); 
-			$indice=substr($nombre,0,15); //para cada movil
-			for($i=0;$i<count($datoscsv);$i++){ //para cada linea
-				if( $datoscsv[$i][1] == "aviso" && $datoscsv[$i][2]=="alerta" ){
-					$vector[$indice]++;
-				}
-			}			
-		}
-		return $vector;
-	  }
-
-	  /**
-	   * Devuelve los avisos de modo ducha activado segun tiempo y para cada movil.
-	   */
-    function getModoDucha(){
-	   	  $losimei = $this->getImeis();
-		  $vector=array();
-		  $contador = array();
-		  $contador["15"]=0;
-		  $contador["30"]=0;
-		  $contador["45"]=0;
-		  foreach($losimei as $key => $valor){
-			$vector[$valor] = $contador;
-		  }
-
-		  //para cada fichero buscar datos de modo ducha.
-		  foreach($this->losnombres as $nombre){
-			$direc = $this->path."/".$nombre;
-			$datoscsv = $this->getArchivo($direc); //contiene toda la informacion de un fichero como array. 
-			$indice = substr($nombre,0,15); //capturo valor de imei 
-			for($i=0;$i<count($datoscsv);$i++){ //para cada linea				
-				if( $datoscsv[$i][1]== "modo ducha" ){
-					$pos15 = strpos( $datoscsv[$i][2],"15");
-					if( $pos15 !== false) $vector[$indice]["15"]++;
-					$pos30= strpos( $datoscsv[$i][2],"30");
-					if( $pos30 !== false) $vector[$indice]["30"]++;
-					$pos45 = strpos( $datoscsv[$i][2],"45");
-					if( $pos45 !== false) $vector[$indice]["45"]++;			
-				}
-			}
-          }
-			return $vector; 
+	   
+	   /* inicia los vectores para guardar la información. */
+	   $this->vectorTiempos = $this->preparaVectores();
+	   $this->vectorSMS = $this->preparaVectores();
+	   
+	   $contador = array(); //modo ducha.
+	   $contador["15"]=0;
+	   $contador["30"]=0;
+	   $contador["45"]=0;	   
+	   $contador["pe"]=0;
+	   $this->vectorDucha = $this->preparaVectores();
+	   foreach($this->vectorDucha as $key => $valor){
+			$this->vectorDucha[$key] = $contador;
 	   }
-	
-	// Devuelve los eventos de notificación de batería baja.
-	function getAvisosBateria(){
-		$losimei = $this->getImeis();
-		$vector = array();
-		foreach($losimei as $key => $valor){
-			$vector[$valor]=0; //inicio cada movil a 0
-		}
-		
-		//para cada fichero cuento cuantas notificaciones de batería baja se han enviado y los guardo.
-		foreach($this->losnombres as $nombre){
-			$dire = $this->path."/".$nombre;
-			$datoscsv = $this->getArchivo($dire);
-			$indice = substr($nombre,0,15); //para cada moivl
-			for($i=0;$i<count($datoscsv);$i++){ //para cada linea
-				if( $datoscsv[$i][1]=="bateria" && $datoscsv[$i][2]=="notificacion bateria baja" ){
-					$vector[$indice]++;
-				}
-			}
-		}
-		return $vector;		
-	}
-	
-	/* Devuelve los avisos de zona segura
-	 */
-	function getZonaSegura(){
-		$vector = $this->dameVectordemovilesacero();
-		
-		foreach($this->losnombres as $nombre){
-			$dire = $this->path."/".$nombre;
-			$datoscsv = $this->getArchivo($dire);
-			$indice = substr($nombre,0,15); //para cada movil
-			for($i=0;$i<count($datoscsv);$i++){ //para cada linea
-				if( $datoscsv[$i][1]=="aviso" && $datoscsv[$i][2]=="zona segura" ){
-					$vector[$indice]++;
-				}
-			}
-		}
-		return $vector;
-	}
-	
-	
-	
-	/***  métodos privados ***/
-	
-	
-	private function dameVectordemovilesacero(){
-		$losimei = $this->getImeis();
-		$vector = array();
-		foreach($losimei as $key => $valor){
-			$vector[$valor]=0; //inicio cada movil a 0
-		}
-		return $vector;
-	}
+	   
+	   $this->vectorAlerta = $this->preparaVectores();
+	   $this->vectorTranquilidad = $this->preparaVectores();
+	   $this->vectorBateria = $this->preparaVectores();
+	   $this->vectorZona = $this->preparaVectores();
+	   
+	   
+	   $cont = array(); //red neuronal.
+	   $cont["caida"]=0;
+	   $cont["sentado"]=0;
+	   $cont["golpe"]=0;
+	   $cont["correr"]=0;
+	   $this->vectorRed = $this->preparaVectores();
+	   foreach($this->vectorRed as $key => $valor ){ 		
+			$this->vectorRed[$key] = $cont;
+	   }
+	 
+	   
+	   //procesa los archivos.
+	   $this->procesaArchivos();
+    }
 	
 	/**
-	 * Devuelve un array con todas las lineas de un fichero.
+	 * Devuelve un array con los identificadores de los distintos moviles.
+	 */
+	function getImeis(){
+		$imei = array(); //array con todos los numeros 
+		foreach($this->losnombres as $valor){
+			$imei[] = substr($valor,0,15);	 //capturo los primeros elementos que se corresponden con el imei.	
+		}
+		$res = array_unique($imei);
+		return $res;
+	}
+	
+	//Devuelve el vector de tiempos de utilización de la app.
+	function getUsoDiario(){
+		return $this->vectorTiempos;
+	}
+	
+	//Devuelve el vector con el número de sms generados por cada movil.
+	function getSMSenviados(){
+		return $this->vectorSMS;
+	}
+	
+	//Devuelve el vector con los datos de utilización del modo ducha por movil.
+	function getModoDucha(){
+		return $this->vectorDucha;
+	}
+		
+	//Devuelve el vector con los datos de avisos de alerta generados por cada movil.
+	function getAvisoAlerta(){
+		return $this->vectorAlerta;
+	}
+	
+	//Devuelve el vector con los datos de avisos de tranquilidad generados por cada movil.
+	function getAvisoTranquilidad(){
+		return $this->vectorTranquilidad;
+	}
+	
+	//Devuelve el vector con los datos de avisos de batería baja generados por cada movil.
+	function getAvisosBateria(){
+		return $this->vectorBateria;
+	}
+	
+	//Devuelve el vector con los avisos de salida de la zona segura generados por cada movil.
+	function getZonaSegura(){
+		return $this->vectorZona;
+	}
+	
+	//Devuelve el vector con los avisos generados por la red neuronal para cada movil.
+	function getAvisosRedNeuronal(){
+		return $this->vectorRed;
+	}
+
+	
+	/*************************************/
+	
+	/* procesa todo los archivos guardando los datos obtenidos en los parámetros correspondientes.
+	*/
+	private function procesaArchivos(){	 
+		foreach($this->losnombres as $nombre){	//para cada archivo ...
+			$direc = $this->path."/".$nombre;
+			$datoscsv = $this->getArchivo($direc);
+			$indice = substr($nombre,0,15); //indicador del imei sacado de nombre del archivo.
+			$tiempoInicio=0; //para calcular uso diario.
+			$tiempoFin=0;	
+//echo "archivo ".$indice."<br/>";
+			for($i=0;$i<count($datoscsv);$i++){ //para cada linea				
+				if( count($datoscsv[$i]) == 3 ){ //si tiene los 3 elementos que tiene que tener cada linea
+					
+					//usodiario.
+					if( $tiempoInicio == 0) $tiempoInicio =substr( $datoscsv[$i][0] , 1);
+					$tiempoFin = substr( $datoscsv[$i][0] ,1);	
+					
+					
+					switch( $datoscsv[$i][1] ){
+						case "SMS": //sms enviados.	
+							$pos = strpos($datoscsv[$i][2],"enviado");
+							if( $pos === false){
+								//no es enviado
+							}else{
+								$this->vectorSMS[$indice]++;
+							}
+							break;
+						case "modo ducha": 
+							$pos15 = strpos( $datoscsv[$i][2],"15");
+							$pos30 = strpos( $datoscsv[$i][2],"30");
+							$pos45 = strpos( $datoscsv[$i][2],"45");
+							$posPE = strpos( $datoscsv[$i][2],"iniciado con minutos");							
+							if( $pos15 !== false ){
+								$this->vectorDucha[$indice]["15"]++;
+							}else if( $pos30 !== false){
+								$this->vectorDucha[$indice]["30"]++;
+							}else if( $pos45 !== false){
+								$this->vectorDucha[$indice]["45"]++;		
+							}else if( $posPE !== false){
+								$this->vectorDucha[$indice]["pe"]++;
+							}
+							break;
+						case "aviso": 							
+							switch($datoscsv[$i][2]){ //para cada tipo distinto de aviso.
+								case "alerta": 									
+									$this->vectorAlerta[$indice]++;									
+									break;
+								case "tranquilidad":
+									$this->vectorTranquilidad[$indice]++;
+									break;
+								case "notificacion bateria baja":
+									$this->vectorBateria[$indice]++;
+									break;
+								case "zona segura":
+									$this->vectorZona[$indice]++;
+									break;
+								case "caida": 
+									$this->vectorRed[$indice]["caida"]++;
+									break;
+								case "correr": 
+									$this->vectorRed[$indice]["correr"]++;
+									break;
+								case "golpe": 
+									$this->vectorRed[$indice]["golpe"]++;
+									break;
+								case "sentado":
+									$this->vectorRed[$indice]["sentado"]++;
+									break;
+							}							
+							break;
+					}		
+				
+				}else{
+					//no hago nada. Puede ser un error, o un salto de carro.
+				}
+			} // fin archivo	
+			$date1 = DateTime::createFromFormat('Y-m-d_H-i-s',$tiempoInicio);
+			$date2 = DateTime::createFromFormat('Y-m-d_H-i-s',$tiempoFin);
+			$diff = $date2->diff($date1);			
+		
+			$this->vectorTiempos[$indice] += $diff->s;
+					
+		}
+	}
+	
+	
+//Devuelve los nombres de todos los archivos existentes.
+	private function getNombres(){
+		$directorio = opendir($this->path); //ruta actual
+		$nombres = array();
+		while( $archivo = readdir($directorio) ){
+			if( is_dir($archivo) ){}else{ $nombres[] = $archivo; }
+		}		
+		closedir($directorio);		
+		return $nombres;
+	}	
+			
+	/**
+	 * Devuelve un array con todas las lineas de un fichero. El archivo está separado por ; .
+	 * Los datos se entregan como un array de arrays.
 	 */
 	private function getArchivo($pathYnombre){
 		$datosfichero = array();
@@ -294,45 +220,16 @@ class Gestor {
 		return $datosfichero;
 	}
 	
-	/**
-	 * Devuelve un array con los identificadores de los distintos moviles.
-	 */
-	private function getImeis(){
-		$imei = array(); //array con todos los numeros 
-		foreach($this->losnombres as $valor){
-			$imei[] = substr($valor,0,15);	 //capturo los primeros elementos que se corresponden con el imei.	
+	//inicia los vectores con el indice como imei de los moviles y el valor a cero.
+	private function preparaVectores(){
+		$losimeis = $this->getImeis();
+		$vector = array();
+		foreach($losimeis as $key => $valor){
+			$vector[$valor]=0; //inicio cada movil a 0
 		}
-		$res = array_unique($imei);
-		return $res;
+		return $vector;
 	}
 	
-	/**
-	 * Devuelve un array con los identificadores de moviles y día. 
-	 * Cada dato indica un archivo de 1 movil y 1 día. 
-	 */
-	private function getImeisDia(){
-		$imeydia = array();
-		foreach($this->losnombres as $valor){
-			$imeiydia[] = substr($valor,0,26); //capturo valor de imei y dia
-		}
-		$res2 = array_unique($imeiydia);
-		return $res2;	
-	}
 	
-	//Devuelve los nombres de todos los archivos existentes.
-	private function getNombres(){
-		$directorio = opendir($this->path); //ruta actual
-		$nombres = array();
-		while( $archivo = readdir($directorio) ){
-			if( is_dir($archivo) ){}else{ $nombres[] = $archivo; }
-		}		
-		closedir($directorio);		
-		return $nombres;
-	}
 }
-
-
 ?>
-
-
-	

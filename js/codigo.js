@@ -1,151 +1,122 @@
 ﻿$(document).ready(function() {
-
-	var laurl ="./php/controlador2.php"; 
-	/*controlador.php o controlador2.php El primero trata todos los archivos en cada llamada. 
-	El segundo utiliza session para guardar	el gestor y solo llamar 1 vez a todos los archivos. */
 	
+	for( index = 0; index < acciones.length; index++){ //para cada acción hacer una petición ajax.		
+		$.ajax({ data:{"accion":acciones[index]},
+			url:laurl,
+			type:"get",
+			async:false,
+			dataType:"json"
+		}).then( function (data) {
+			crearGrafico(index,data);
+		});		
+	}
 	
-	$.ajax({ data:{"accion":"cuantosmoviles"},
-		url:laurl,		
-		type:"get",
-		async:false,
-		dataType: "json"
-	}).then( function(data){
-		mostrarMoviles(data);		
-	});
-	
-	$.ajax({ data:{"accion":"tiempouso"},	   
-		url:laurl,
-		type: "get",
-		async:false,
-		dataType: "json"
-	}).then( function(data) {
-		graficoTiempoUso(data);
-	});
-	
-	$.ajax({ data:{"accion":"smsgenerados"},
-		url:laurl,		
-		type: "get",
-		async:false,
-		dataType:"json"
-	}).then( function(data){
-		graficoSms(data);
-	});
-	
-	$.ajax({ data:{"accion":"mododucha"},
-		url:laurl,	
-		type: "get",
-		async:false,
-		dataType:"json"
-	}).then( function(data){
-		graficoDucha(data);
-	});
-	
-	$.ajax({ data:{"accion":"redneuronal"},
-		url:laurl,		
-		type: "get",
-		async:false,
-		dataType:"json"
-	}).then( function(data){
-		graficoRedNeuronal(data);
-	});
-	
-	$.ajax({ data:{"accion":"redneuronal2"},
-		url:laurl,		
-		type: "get",
-		async:false,
-		dataType:"json"
-	}).then( function(data){
-		graficoRedNeuronal2(data);
-	});
-	
-	$.ajax({ data:{"accion":"botonrojo"},
-		url:laurl,		
-		type: "get",
-		async:false,
-		dataType:"json"
-	}).then( function(data){
-		graficoBotonRojo(data);
-	});
-	
-	$.ajax({ data:{"accion":"botontranquilidad"},
-		url:laurl,		
-		type: "get",
-		async:false,
-		dataType:"json"
-	}).then( function(data){
-		graficoBotonTranquilidad(data);
-	});
-	
-	$.ajax({ data:{"accion":"bateriabaja"},
-		url:laurl,		
-		type: "get",
-		async:false,
-		dataType:"json"
-	}).then( function(data){
-		graficoBateriaBaja(data);
-	});
-	
-	$.ajax({ data:{"accion":"zonasegura"},
-		url:laurl,
-		type: "get",
-		async:false,
-		dataType:"json"
-	}).then( function(data){
-		graficoZonaSegura(data);
-	});
-
 });
 
-/*	var d = new Date();
-	var nue = d.getTime();
-	var fin = 0;	
-	var diff = 0 ;
-	
-	
+var laurl ="./php/controlador.php";  
+var acciones = ["cuantosmoviles","tiempouso","smsgenerados","mododuchamovil","mododuchatotal","redneuronalmovil","redneuronaltotal","botonrojo","botontranquilidad","bateriabaja","zonasegura"];
 
-	function calculaTiempo(){
-		var x = new Date();
-		var cuanto = x.getTime();
-		if(cuanto > fin ){
-			fin = cuanto;
-			diff = fin-nue;
-		}
-		$("#datosunicos").append("<p>Tiempos "+nue+" "+fin+" "+cuanto+" "+diff+" </p>");
-	}*/
-
-	function mostrarMoviles(datos){
-		$("#datosunicos").append("<p>Total de usuarios que han utilizado la app : "+datos.cuantos+" </p>");		
+var d = new Date();
+var nue = d.getTime(); //tiempo inicial de procesamiento.
+var fin = 0;	 //tiempo final del procesamiento.
+var diff = 0 ; //diferencia de tiempo.
+	
+//Función llamada por la petición ajax donde se reciben los datos en formato json. 
+//Según la acción llamada se pinta un gráfico u otro. 
+function crearGrafico(indice, datos){
+	var accion = acciones[indice];
+	switch(accion){
+		case "cuantosmoviles":
+			$("#datosunicos").append("<p>Total de usuarios que han utilizado la app : "+datos.cuantos+" </p>");		
+			break;
+		case "tiempouso":
+			var longitud = datos.length;
 		
-      /*calculaTiempo();
-		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>");*/
-	}
-
-	function graficoTiempoUso(datos){
-		var longitud = datos.length;
-		$("#tiempo").append("<p>Tiempo medio de uso de la App : "+datos.tiempomedio+" segundos </p>");
-		var chart2 = AmCharts.makeChart("chartdiv5",{
-			"type" : "pie",
-			"theme" : "light",
-			"titleField" : "tipo",
-			"valueField" : "valor",
-			"legend" : { align : "right",
-						 markerType : "circle",
-						 "position" : "bottom"
-					   },
-		    "startDuration":2,
-			"dataProvider" : datos.moviles
-	    });
+			//conversion de segundos a minutos....
+			var minutos =Math.floor( datos.tiempomedio / 60 );
+			var segundos = datos.tiempomedio % 60 ;
 		
-	/*	calculaTiempo();
-		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
+			$("#tiempo").append("<p>Tiempo medio de uso de la App : "+minutos+" minutos y "+segundos+" segundos </p>");
+			pintaTiempoUso(datos);
+			break;
+		case "smsgenerados":
+				$("#sms").append("<p>Total de SMS´s enviados : "+datos.total+"</p>");
+				$("#sms").append("<p>Media de SMS´s enviados : "+datos.media+"</p>");	
+				pintaSmsGenerados(datos);
+			break;
+		case "mododuchamovil": 
+			pintaDuchaMovil(datos);
+			break;
+		case "mododuchatotal":
+			$("#duchaTotal").append("<p>Tiempo de ducha más utilizado : "+datos.mas+" minutos </p>");	
+			pintaDuchaTotal(datos);
+			break;
+		case "redneuronalmovil": 
+			pintaRedMovil(datos);
+			break;
+		case "redneuronaltotal": 
+			var texto ="<p>Total de eventos de red neuronal generados ";
+			texto +="<ul><li>Sentado "+datos.total.sentado+" </li>"
+			texto +="    <li>Golpe "+datos.total.golpe+"</li>";
+			texto +="    <li>Correr "+datos.total.correr+"</li>";
+			texto +="    <li>Caida "+datos.total.caida+"</li>";		
+			$("#red").append(texto+"</ul></p>");
+		
+			var texto2 = "<p>Media de eventos de red neuronal generados ";
+			texto2 +="<ul><li>Sentado "+datos.media.sentado+" </li>"
+			texto2 +="    <li>Golpe "+datos.media.golpe+"</li>";
+			texto2 +="    <li>Correr "+datos.media.correr+"</li>";
+			texto2 +="    <li>Caida "+datos.media.caida+"</li>";			
+			$("#red").append(texto2+" </ul></p>");			
+			pintaRedTotal(datos);	
+			break;
+		case "botonrojo": 
+			$("#botonrojo").append("<p>Total de avisos de tipo alerta (botón rojo) : "+datos.avisos+"</p>");
+			$("#botonrojo").append("<p>Media de avisos de tipo alerta (botón rojo) : "+datos.media+"</p>");	
+			pintaBotonRojo(datos);	
+			break;
+		case "botontranquilidad": 
+			$("#botonverde").append("<p>Total de avisos de tipo tranquilidad (botón verde) : "+datos.avisos+"</p>");
+			$("#botonverde").append("<p>Media de avisos de tipo tranquilidad (botón verde) : "+datos.media+"</p>");	
+			pintaTranquilidad(datos);	
+		break;
+		case "bateriabaja":
+			$("#bateria").append("<p>Total de avisos de batería baja : "+datos.avisos+"</p>");
+			$("#bateria").append("<p>Media de avisos de batería baja : "+datos.media+"</p>");	
+			pintaBateria(datos);
+			break;
+		case "zonasegura": 
+			$("#zonasegura").append("<p>Total de avisos de zona segura : "+datos.avisos+"</p>");
+			$("#zonasegura").append("<p>Media de avisos de zona segura : "+datos.media+"</p>");	
+			pintaZonaSegura(datos);
+			break;
 	}
 	
-	function graficoSms(datos){
-		$("#sms").append("<p>Total de SMS´s enviados : "+datos.total+"</p>");
-		$("#sms").append("<p>Media de SMS´s enviados : "+datos.media+"</p>");	
+	/* Para estudio de tiempos de procesamiento de archivos. */
+	//calculaTiempo();
+	//$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>");
 	
-		var chart = AmCharts.makeChart("chartdiv",{
+}
+
+//Función que pinta el gráfico de tiempo de uso de la app.
+function pintaTiempoUso(datos){
+	var chart2 = AmCharts.makeChart("chartdiv5",{
+				"type" : "pie",
+				"theme" : "light",
+				"titleField" : "tipo",
+				"valueField" : "valor",
+				"legend" : { align : "right",
+							markerType : "circle",
+							"position" : "bottom"
+						},
+				"startDuration":2,
+				"dataProvider" : datos.moviles
+			});
+}
+
+//Función que pinta el gráfico de número de sms´s generados.
+function pintaSmsGenerados(datos){
+	var chart = AmCharts.makeChart("chartdiv",{
 			"type" : "serial",
 			"theme" : "light",
 			"categoryField" : "tipo",
@@ -157,7 +128,7 @@
 						   "fillAlphas" : 1,
 						   "fillColors" : "#ae85c9",
 						   "balloonText" : "[[category]]: <b>[[value]]</b>",
-						   "topRadius":0.5,
+						   "topRadius":1,
 						 }
 					   ],	
 			"valueAxes" : [ { "title" : "sms generados" } ],
@@ -169,15 +140,37 @@
 			
 			"dataProvider" : datos.moviles
 		});
-		
-		
-	/*	calculaTiempo();
-		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
-	}
+}
 	
-	function graficoDucha(datos){
-		$("#ducha").append("<p>Tiempo de ducha más utilizado : "+datos.mas+" minutos </p>");
-		var chart = AmCharts.makeChart("chartdiv2",{
+//Función que pinta el gráfico de uso del modo ducha. Muestra los valores totales de cada tipo.
+function pintaDuchaTotal(datos){
+	var chart = AmCharts.makeChart("chartdiv22",{
+			"type" : "serial",
+			"theme" : "light",
+			"categoryField" : "tipo",
+			"categoryAxis" : { "gridPosition" : "start","labelRotation" : 15},
+			"graphs" : [ { "title" : "Modo ducha totales"	,
+			               "type" : "column", 
+						   "valueField" : "valor",
+						   "fillAlphas" : 1,
+						   "balloonText" : "[[category]]: <b>[[value]]</b>"
+						 }
+					   ],				
+					
+			"valueAxes" :[  { "title" : "Modo ducha cantidad " } ],
+			"legend" : { "useGraphSettings" : true,
+						 "position": "right",			},
+			"titles" : [ { "size" : 15, "text" : "Modo ducha totales" } ],
+			"depth3D" : 15,
+			"angle" :  30,
+			"startDuration":2,
+			"dataProvider" : datos.moviles
+		});
+}
+
+//Función que pinta el gráfico de uso del modo ducha. Muestra los valores para cada movil.
+function pintaDuchaMovil(datos){
+	var chart = AmCharts.makeChart("chartdiv2",{
 			"type":"serial",
 			"theme":"light",
 			"legend": {
@@ -189,12 +182,12 @@
 			},
 			"startDuration":2,
 			dataProvider : datos.moviles,
-			"valueAxes" : [ { "title" : "botones modo ducha",
+			"valueAxes" : [ { "title" : "Modo ducha cantidad",
 							  "stackType":"regular"
 							} ],			
 			"categoryField" : "movil",
 			"categoryAxis" : { "gridPosition" : "start","labelRotation" : 15},
-			"titles" : [ { "size" : 15, "text" : "Gráfico modo ducha" } ],
+			"titles" : [ { "size" : 15, "text" : "Modo ducha por movil" } ],
 				"depth3D" : 15,
 			"angle" :  30,
 			"graphs" : [ { "title" : "15",	
@@ -227,14 +220,11 @@
 					   ],	
 			
 		});
-		
-	/*	calculaTiempo();
-		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
-	}
-		
-	//muestra datos por movil
-	function graficoRedNeuronal(datos){
-		var chart = AmCharts.makeChart("chartdiv33",{
+}
+	
+//Función que pinta el gráfico de eventos de red neuronal. Muestra los valores para cada movil.
+function pintaRedMovil(datos){
+	var chart = AmCharts.makeChart("chartdiv33",{
 			"type":"serial",
 			"theme":"light",
 			"legend": {
@@ -246,14 +236,14 @@
 			},
 			"startDuration": 2,
 			dataProvider : datos.moviles,
-			"valueAxes" : [ { "title" : "eventos red neuronal",
+			"valueAxes" : [ { "title" : "Eventos red neuronal",
 							  "stackType":"regular"
 							} ],			
 			"categoryField" : "movil",
 			"categoryAxis" : { "gridPosition" : "start","labelRotation" : 15},
 			"depth3D" : 15,
 			"angle" :  30,
-			"titles" : [ { "size" : 15, "text" : "Gráfico red neuronal" } ],
+			"titles" : [ { "size" : 15, "text" : "Red neuronal por movil" } ],
 			"graphs" : [ { "title" : "sentado",	
 			               "type" : "column", 
 						   "valueField" : "sentado",
@@ -283,34 +273,17 @@
 						 }
 					   ],	
 			
-		});
-		
-	/*	calculaTiempo();
-		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
-	}	
+		});		
+}
 	
-	//muestra totales
-	function graficoRedNeuronal2(datos){
-		var texto ="<p>Total de eventos de red neuronal generados ";
-		texto +="<ul><li>Sentado "+datos.total.sentado+" </li>"
-		texto +="    <li>Golpe "+datos.total.golpe+"</li>";
-	    texto +="    <li>Correr "+datos.total.correr+"</li>";
-		texto +="    <li>Caida "+datos.total.caida+"</li>";		
-		$("#red").append(texto+"</ul></p>");
-		
-		var texto2 = "<p>Media de eventos de red neuronal generados ";
-		texto2 +="<ul><li>Sentado "+datos.media.sentado+" </li>"
-		texto2 +="    <li>Golpe "+datos.media.golpe+"</li>";
-	    texto2 +="    <li>Correr "+datos.media.correr+"</li>";
-		texto2 +="    <li>Caida "+datos.media.caida+"</li>";			
-		$("#red").append(texto2+" </ul></p>");	
-		
-		var chart = AmCharts.makeChart("chartdiv3",{
+//Función que pinta el gráfico de eventos de red neuronal. Muestra los totales de cada tipo.
+function pintaRedTotal(datos){
+	var chart = AmCharts.makeChart("chartdiv3",{
 			"type" : "serial",
 			"theme" : "light",
 			"categoryField" : "tipo",
 			"categoryAxis" : { "gridPosition" : "start","labelRotation" : 15},
-			"graphs" : [ { "title" : "Eventos de red neuronal"	,
+			"graphs" : [ { "title" : "Eventos red neuronal"	,
 			               "type" : "column", 
 						   "valueField" : "valor",
 						   "fillAlphas" : 1,
@@ -318,24 +291,19 @@
 						 }
 					   ],				
 					
-			"valueAxes" :[  { "title" : "Eventos de red neuronal" } ],
+			"valueAxes" :[  { "title" : "Eventos red neuronal " } ],
 			"legend" : { "useGraphSettings" : true,
 						 "position": "right",			},
-			"titles" : [ { "size" : 15, "text" : "Eventos de red neuronal" } ],
+			"titles" : [ { "size" : 15, "text" : "Red neuronal totales" } ],
 			"depth3D" : 15,
 			"angle" :  30,
 			"startDuration":2,
 			"dataProvider" : datos.moviles
 		});
-		
-	/*	calculaTiempo();
-		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
-	}
-	
-	function graficoBotonRojo(datos){
-		$("#botonrojo").append("<p>Total de avisos de tipo alerta (botón rojo) : "+datos.avisos+"</p>");
-		$("#botonrojo").append("<p>Media de avisos de tipo alerta (botón rojo) : "+datos.media+"</p>");	
-		
+}
+
+//Función que pinta el gráfico de avisos de alerta. 
+function pintaBotonRojo(datos){
 		var chart = AmCharts.makeChart("chartdiv4",{
 			"type" : "serial",
 			"theme" : "light",
@@ -358,16 +326,11 @@
 			"startDuration":2,
 			"dataProvider" : datos.moviles
 		});
-		
-	/*	calculaTiempo();
-		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
-	}
-	
-	function graficoBotonTranquilidad(datos){
-		$("#botonverde").append("<p>Total de avisos de tipo tranquilidad (botón verde) : "+datos.avisos+"</p>");
-		$("#botonverde").append("<p>Media de avisos de tipo tranquilidad (botón verde) : "+datos.media+"</p>");	
-		
-		var chart = AmCharts.makeChart("chartdiv6",{
+}
+
+//Función que pinta el gráfico de avisos de tranquilidad.
+function pintaTranquilidad(datos){
+	var chart = AmCharts.makeChart("chartdiv6",{
 			"type" : "serial",
 			"theme" : "light",
 			"categoryField" : "movil",
@@ -389,15 +352,11 @@
 			"startDuration":2,
 			"dataProvider" : datos.moviles
 		});
-		
-	/*	calculaTiempo();
-		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
-	}
-	
-	function graficoBateriaBaja(datos){
-		$("#bateria").append("<p>Total de avisos de batería baja : "+datos.avisos+"</p>");
-		$("#bateria").append("<p>Media de avisos de batería baja : "+datos.media+"</p>");	
-		var chart = AmCharts.makeChart("chartdiv7",{
+}
+
+//Función que pinta el gráfico de avisos de batería baja.
+function pintaBateria(datos){
+	var chart = AmCharts.makeChart("chartdiv7",{
 			"type" : "serial",
 			"theme" : "light",
 			"categoryField" : "movil",
@@ -419,15 +378,11 @@
 			"startDuration":2,
 			"dataProvider" : datos.moviles
 		});
-		
-	/*	calculaTiempo();
-		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
-	}
+}
 
-	function graficoZonaSegura(datos){
-		$("#zonasegura").append("<p>Total de avisos de zona segura : "+datos.avisos+"</p>");
-		$("#zonasegura").append("<p>Media de avisos de zona segura : "+datos.media+"</p>");	
-		var chart = AmCharts.makeChart("chartdiv8",{
+//Función que pinta el gráfico de uso de zona segura.
+function pintaZonaSegura(datos){
+	var chart = AmCharts.makeChart("chartdiv8",{
 			"type" : "serial",
 			"theme" : "light",
 			"categoryField" : "movil",
@@ -449,9 +404,15 @@
 			"startDuration":2,			
 			"dataProvider" : datos.moviles
 		});
-		
-	/*	calculaTiempo();
-		$("#datosunicos").append("<p>Gestor "+datos.gestor+"</p>"); */
+}
+
+//Función para estudiar el tiempo que se tarda en ejecutar el tratamiento de los ficheros. 
+function calculaTiempo(){
+	var x = new Date();
+	var cuanto = x.getTime();
+	if(cuanto > fin ){
+		fin = cuanto;
+		diff = fin-nue;
 	}
-		
-	
+	$("#datosunicos").append("<p>Tiempos "+nue+" "+fin+" "+cuanto+" "+diff+" </p>");
+}

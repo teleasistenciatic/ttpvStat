@@ -1,0 +1,41 @@
+>2015-06-05_17-03-41;app;iniciada IMEI:868496016956808
+>2015-06-05_17-03-41;caidas;servicio iniciado
+>2015-06-05_17-03-41;zona segura;servicio no iniciado
+>2015-06-05_17-03-41;bateria;reciver activo
+>2015-06-05_17-03-41;bateria;monitor iniciado
+>2015-06-05_17-03-42;bateria;nivel: 100 estado: Llena tasa de refresco: 4
+>2015-06-05_17-03-50;boton;modo ducha pulsado
+>2015-06-05_17-03-57;modo ducha;iniciado con minutos : 15
+>2015-06-05_17-18-24;boton;contactos pulsado
+>2015-06-05_17-18-24;configuracion;personas contacto
+>2015-06-05_17-18-42;appSharedPreferences;contactos creados : Felisa-646 39 51 18_-_-
+>2015-06-05_17-19-02;appSharedPreferences;contactos creados : Felisa-646 39 51 18_-_-
+>2015-06-05_17-19-21;appSharedPreferences;contactos creados : Felisa-646 39 51 18_-_-
+>2015-06-05_17-20-10;boton;tranquilidad pulsado
+>2015-06-05_17-20-10;aviso;tranquilidad
+>2015-06-05_17-20-10;SMS;enviado:[TELEASISTENCI@TIC+: Juana Armenta Garcia comunica que se encuentra bien a las 05/06/15:17:20:10]
+>2015-06-05_17-20-28;boton;contactos pulsado
+>2015-06-05_17-20-28;configuracion;personas contacto
+>2015-06-05_17-20-42;appSharedPreferences;contactos creados :  ,- ,_-_-
+>2015-06-05_19-38-14;boton;tranquilidad pulsado
+>2015-06-05_19-38-14;aviso;tranquilidad
+>2015-06-05_19-38-14;SMS;enviado:[TELEASISTENCI@TIC+: Juana Armenta Garcia comunica que se encuentra bien a las 05/06/15:19:38:14]
+>2015-06-05_19-38-57;boton;llamada pulsado
+>2015-06-05_19-38-57;boton;llamada llamando contacto
+>2015-06-06_09-16-51;boton;modo ducha pulsado
+>2015-06-06_09-16-58;modo ducha;iniciado con minutos : 30
+>2015-06-06_09-46-18;boton;contactos pulsado
+>2015-06-06_09-46-18;configuracion;personas contacto
+>2015-06-07_00-03-58;aviso;caida
+>2015-06-07_00-05-40;appSharedPreferences;contactos creados : Amalia-618011623_-_-
+>2015-06-07_00-06-09;app;cerrada
+>2015-06-07_00-12-56;app;pantalla de carga
+>2015-06-07_00-12-59;app;iniciada IMEI:868496016956808
+>2015-06-07_00-13-00;caidas;servicio iniciado
+>2015-06-07_00-13-00;zona segura;servicio no iniciado
+>2015-06-07_00-13-00;bateria;reciver activo
+>2015-06-07_00-13-00;bateria;monitor iniciado
+>2015-06-07_00-13-00;bateria;nivel: 57 estado: Descargando tasa de refresco: 4
+>2015-06-07_00-13-13;boton;volver a casa pulsado
+>2015-06-07_00-13-13;boton;volver a casa con datos: 37.868158, -4.773851
+>2015-06-07_00-13-25;app;cerrada

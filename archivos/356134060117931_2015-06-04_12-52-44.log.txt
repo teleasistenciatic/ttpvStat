@@ -1,0 +1,14 @@
+>2015-06-04_12-52-44;app;pantalla de carga
+>2015-06-04_12-52-47;app;iniciada IMEI:356134060117931
+>2015-06-04_12-52-47;caidas;servicio iniciado
+>2015-06-04_12-52-47;zona segura;servicio iniciado
+>2015-06-04_12-52-47;bateria;reciver activo
+>2015-06-04_12-52-47;bateria;monitor iniciado
+>2015-06-04_12-52-47;bateria;nivel: 16 estado: Descargando tasa de refresco: 4
+>2015-06-04_12-52-47;bateria;notificacion bateria baja
+>2015-06-04_12-52-55;boton;alerta pulsado
+>2015-06-04_12-52-58;boton;alerta pulsado
+>2015-06-04_12-52-58;boton;alerta pulsado cuenta atras cancelada
+>2015-06-04_12-53-15;boton;modo ducha pulsado
+>2015-06-04_12-53-33;app;cerrada
+

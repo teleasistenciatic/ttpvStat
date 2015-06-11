@@ -1,0 +1,36 @@
+>2015-06-10_09-18-48;app;pantalla de carga
+>2015-06-10_09-18-51;app;iniciada IMEI:351549069368695
+>2015-06-10_09-18-52;caidas;servicio iniciado
+>2015-06-10_09-18-52;zona segura;servicio iniciado
+>2015-06-10_09-18-52;bateria;reciver activo
+>2015-06-10_09-18-52;bateria;monitor iniciado
+>2015-06-10_09-18-52;bateria;nivel: 84 estado: Descargando tasa de refresco: 4
+>2015-06-10_09-18-59;app;cerrada
+>2015-06-10_09-19-18;app;pantalla de carga
+>2015-06-10_09-19-21;app;pantalla de tarificacion extra
+>2015-06-10_09-19-37;app;pantalla de carga
+>2015-06-10_09-19-41;app;pantalla de tarificacion extra
+>2015-06-10_09-19-52;app;iniciada IMEI:351549069368695
+>2015-06-10_09-19-52;caidas;no existe preferencia, servicio iniciado
+>2015-06-10_09-19-52;zona segura;servicio no iniciado
+>2015-06-10_09-19-52;bateria;reciver activo
+>2015-06-10_09-19-52;bateria;monitor iniciado
+>2015-06-10_09-19-52;bateria;nivel: 84 estado: Descargando tasa de refresco: 4
+>2015-06-10_09-19-52;configuracion;datos personales
+>2015-06-10_09-20-28;configuracion;personas contacto
+>2015-06-10_09-21-08;appSharedPreferences;contactos creados : Antonio alf Le-661826060_-_-
+>2015-06-10_09-21-17;app;cerrada
+>2015-06-10_09-21-29;app;pantalla de carga
+>2015-06-10_09-21-33;app;pantalla de tarificacion extra
+>2015-06-10_09-21-37;app;iniciada IMEI:351549069368695
+>2015-06-10_09-21-37;caidas;servicio iniciado
+>2015-06-10_09-21-37;zona segura;servicio no iniciado
+>2015-06-10_09-21-37;bateria;reciver activo
+>2015-06-10_09-21-37;bateria;monitor iniciado
+>2015-06-10_09-21-37;bateria;nivel: 84 estado: Descargando tasa de refresco: 4
+>2015-06-10_09-21-37;configuracion;datos personales
+>2015-06-10_09-21-46;boton;tranquilidad pulsado
+>2015-06-10_09-21-46;aviso;tranquilidad
+>2015-06-10_09-21-46;SMS;enviado:[TELEASISTENCI@TIC+:   comunica que se encuentra bien a las 10/06/15:09:21:46]
+>2015-06-10_09-21-58;app;cerrada
+

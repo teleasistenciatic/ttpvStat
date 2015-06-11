@@ -1,0 +1,26 @@
+>2015-06-07_16-27-07;app;pantalla de carga
+>2015-06-07_16-27-11;app;iniciada IMEI:868496016956808
+>2015-06-07_16-27-11;caidas;servicio iniciado
+>2015-06-07_16-27-11;zona segura;servicio no iniciado
+>2015-06-07_16-27-11;bateria;reciver activo
+>2015-06-07_16-27-11;bateria;monitor iniciado
+>2015-06-07_16-27-11;bateria;nivel: 93 estado: Descargando tasa de refresco: 4
+>2015-06-07_16-27-22;boton;alerta pulsado
+>2015-06-07_16-27-26;aviso;alerta
+>2015-06-07_16-27-26;SMS;enviado:[TELEASISTENCI@TIC+: Juana Armenta Garcia genera aviso 07/06/15:16:27:26]
+>2015-06-07_16-27-27;boton;tranquilidad pulsado
+>2015-06-07_16-27-27;aviso;tranquilidad
+>2015-06-07_16-27-27;SMS;enviado:[TELEASISTENCI@TIC+: Juana Armenta Garcia comunica que se encuentra bien a las 07/06/15:16:27:27]
+>2015-06-07_16-27-36;boton;contactos pulsado
+>2015-06-07_16-27-36;configuracion;personas contacto
+>2015-06-07_16-27-57;boton;contactos pulsado
+>2015-06-07_16-27-57;configuracion;personas contacto
+>2015-06-07_16-28-02;boton;tranquilidad pulsado
+>2015-06-07_16-28-02;aviso;tranquilidad
+>2015-06-07_16-28-02;SMS;enviado:[TELEASISTENCI@TIC+: Juana Armenta Garcia comunica que se encuentra bien a las 07/06/15:16:28:02]
+>2015-06-07_16-28-05;boton;alerta pulsado
+>2015-06-07_16-28-09;aviso;alerta
+>2015-06-07_16-28-09;SMS;enviado:[TELEASISTENCI@TIC+: Juana Armenta Garcia genera aviso 07/06/15:16:28:09]
+>2015-06-07_16-28-18;boton;volver a casa pulsado
+>2015-06-07_16-28-18;boton;volver a casa con datos: 37.868158, -4.773851
+>2015-06-07_16-28-54;app;cerrada

@@ -1,0 +1,15 @@
+>2015-06-04_12-23-58;app;pantalla de carga
+>2015-06-04_12-24-01;app;pantalla de tarificacion extra
+>2015-06-04_12-24-11;app;iniciada IMEI:356134060117931
+>2015-06-04_12-24-13;caidas;no existe preferencia, servicio iniciado
+>2015-06-04_12-24-13;zona segura;servicio no iniciado
+>2015-06-04_12-24-13;bateria;reciver activo
+>2015-06-04_12-24-13;bateria;monitor iniciado
+>2015-06-04_12-24-14;bateria;nivel: 25 estado: Descargando tasa de refresco: 4
+>2015-06-04_12-24-14;bateria;notificacion bateria baja
+>2015-06-04_12-24-14;configuracion;datos personales
+>2015-06-04_12-25-11;appSharedPreferences;nombre y apellidos creados : tomas-herman alcantara
+>2015-06-04_12-25-11;configuracion;personas contacto
+>2015-06-04_12-25-34;appSharedPreferences;contactos creados : -_-_-
+>2015-06-04_12-25-57;app;cerrada
+

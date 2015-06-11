@@ -1,0 +1,36 @@
+>2015-06-05_12-58-59;app;pantalla de carga
+>2015-06-05_12-59-03;app;iniciada IMEI:868496016956808
+>2015-06-05_12-59-03;caidas;servicio iniciado
+>2015-06-05_12-59-03;zona segura;servicio no iniciado
+>2015-06-05_12-59-03;bateria;reciver activo
+>2015-06-05_12-59-03;bateria;monitor iniciado
+>2015-06-05_12-59-03;bateria;nivel: 49 estado: Descargando tasa de refresco: 4
+>2015-06-05_12-59-11;boton;modo ducha pulsado
+>2015-06-05_12-59-18;modo ducha;iniciado con minutos : 15
+>2015-06-05_12-59-31;boton;modo ducha pulsado
+>2015-06-05_12-59-48;modo ducha;iniciado con minutos : 5
+>2015-06-05_13-00-06;boton;alerta pulsado
+>2015-06-05_13-00-07;boton;alerta pulsado
+>2015-06-05_13-00-07;boton;alerta pulsado cuenta atras cancelada
+>2015-06-05_13-00-17;boton;tranquilidad pulsado
+>2015-06-05_13-00-17;aviso;tranquilidad
+>2015-06-05_13-00-17;SMS;enviado:[TELEASISTENCI@TIC+: Juana Armenta Garcia comunica que se encuentra bien a las 05/06/15:13:00:17]
+>2015-06-05_13-00-23;boton;llamada pulsado
+>2015-06-05_13-00-23;boton;llamada llamando contacto
+>2015-06-05_13-00-34;app;cerrada
+>2015-06-05_13-01-35;app;pantalla de carga
+>2015-06-05_13-01-38;app;iniciada IMEI:868496016956808
+>2015-06-05_13-01-38;caidas;servicio iniciado
+>2015-06-05_13-01-38;zona segura;servicio no iniciado
+>2015-06-05_13-01-38;bateria;reciver activo
+>2015-06-05_13-01-38;bateria;monitor iniciado
+>2015-06-05_13-01-38;bateria;nivel: 47 estado: Descargando tasa de refresco: 4
+>2015-06-05_13-02-01;boton;tranquilidad pulsado
+>2015-06-05_13-02-01;aviso;tranquilidad
+>2015-06-05_13-02-01;SMS;enviado:[TELEASISTENCI@TIC+: Juana Armenta Garcia comunica que se encuentra bien a las 05/06/15:13:02:01]
+>2015-06-05_13-02-09;boton;llamada pulsado
+>2015-06-05_13-02-09;boton;llamada llamando contacto
+>2015-06-05_13-03-51;app;cerrada
+>2015-06-05_13-06-17;aviso;golpe
+>2015-06-05_13-09-21;aviso;sentado
+>2015-06-05_13-11-48;aviso;caida

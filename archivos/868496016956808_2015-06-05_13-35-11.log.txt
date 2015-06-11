@@ -1,0 +1,12 @@
+>2015-06-05_13-35-11;app;pantalla de carga
+>2015-06-05_13-35-14;app;iniciada IMEI:868496016956808
+>2015-06-05_13-35-15;caidas;servicio iniciado
+>2015-06-05_13-35-15;zona segura;servicio no iniciado
+>2015-06-05_13-35-15;bateria;reciver activo
+>2015-06-05_13-35-15;bateria;monitor iniciado
+>2015-06-05_13-35-15;bateria;nivel: 39 estado: Descargando tasa de refresco: 4
+>2015-06-05_13-35-31;boton;tranquilidad pulsado
+>2015-06-05_13-35-31;aviso;tranquilidad
+>2015-06-05_13-35-31;SMS;enviado:[TELEASISTENCI@TIC+: Juana Armenta Garcia comunica que se encuentra bien a las 05/06/15:13:35:31]
+>2015-06-05_13-35-38;boton;contactos pulsado
+>2015-06-05_13-35-38;configuracion;personas contacto

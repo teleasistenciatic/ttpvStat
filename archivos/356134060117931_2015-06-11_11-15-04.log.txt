@@ -1,0 +1,49 @@
+>2015-06-11_11-15-04;app;pantalla de carga
+>2015-06-11_11-15-08;app;iniciada IMEI:356134060117931
+>2015-06-11_11-15-08;caidas;servicio iniciado
+>2015-06-11_11-15-08;zona segura;servicio iniciado
+>2015-06-11_11-15-08;bateria;reciver activo
+>2015-06-11_11-15-08;bateria;monitor iniciado
+>2015-06-11_11-15-08;bateria;nivel: 93 estado: Descargando tasa de refresco: 4
+>2015-06-11_11-15-11;boton;contactos pulsado
+>2015-06-11_11-15-11;configuracion;personas contacto
+>2015-06-11_11-15-21;boton;contactos pulsado
+>2015-06-11_11-15-21;configuracion;personas contacto
+>2015-06-11_11-15-42;appSharedPreferences;contactos creados : Jose-686 55 91 59_-_-
+>2015-06-11_11-16-21;boton;contactos pulsado
+>2015-06-11_11-16-21;configuracion;personas contacto
+>2015-06-11_11-16-32;appSharedPreferences;contactos creados : Gloria-616 07 52 75_-_-
+>2015-06-11_11-16-48;boton;llamada pulsado
+>2015-06-11_11-16-48;boton;llamada llamando contacto
+>2015-06-11_11-17-55;app;cerrada
+>2015-06-11_11-18-11;app;pantalla de carga
+>2015-06-11_11-18-14;app;iniciada IMEI:356134060117931
+>2015-06-11_11-18-15;caidas;servicio iniciado
+>2015-06-11_11-18-15;zona segura;servicio iniciado
+>2015-06-11_11-18-15;bateria;reciver activo
+>2015-06-11_11-18-15;bateria;monitor iniciado
+>2015-06-11_11-18-15;bateria;nivel: 92 estado: Descargando tasa de refresco: 4
+>2015-06-11_11-18-33;boton;contactos pulsado
+>2015-06-11_11-18-33;configuracion;personas contacto
+>2015-06-11_11-18-44;app;cerrada
+>2015-06-11_11-18-45;app;pantalla de carga
+>2015-06-11_11-18-48;app;iniciada IMEI:356134060117931
+>2015-06-11_11-18-48;caidas;servicio iniciado
+>2015-06-11_11-18-48;zona segura;servicio iniciado
+>2015-06-11_11-18-48;bateria;reciver activo
+>2015-06-11_11-18-48;bateria;monitor iniciado
+>2015-06-11_11-18-48;bateria;nivel: 92 estado: Descargando tasa de refresco: 4
+>2015-06-11_11-18-52;boton;modo ducha pulsado
+>2015-06-11_11-19-37;app;cerrada
+>2015-06-11_11-19-58;app;pantalla de carga
+>2015-06-11_11-20-01;app;iniciada IMEI:356134060117931
+>2015-06-11_11-20-01;caidas;servicio iniciado
+>2015-06-11_11-20-01;zona segura;servicio iniciado
+>2015-06-11_11-20-01;bateria;reciver activo
+>2015-06-11_11-20-01;bateria;monitor iniciado
+>2015-06-11_11-20-01;bateria;nivel: 91 estado: Descargando tasa de refresco: 4
+>2015-06-11_11-20-05;boton;alerta pulsado
+>2015-06-11_11-20-07;boton;alerta pulsado
+>2015-06-11_11-20-07;boton;alerta pulsado cuenta atras cancelada
+>2015-06-11_11-20-18;app;cerrada
+

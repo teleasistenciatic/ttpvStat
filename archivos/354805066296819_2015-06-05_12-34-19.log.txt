@@ -1,0 +1,29 @@
+>2015-06-05_12-34-19;app;pantalla de carga
+>2015-06-05_12-34-23;app;pantalla de tarificacion extra
+>2015-06-05_12-35-29;app;pantalla de carga
+>2015-06-05_12-35-32;app;pantalla de tarificacion extra
+>2015-06-05_12-36-20;app;iniciada IMEI:354805066296819
+>2015-06-05_12-36-21;caidas;servicio iniciado
+>2015-06-05_12-36-21;zona segura;servicio iniciado
+>2015-06-05_12-36-21;bateria;reciver activo
+>2015-06-05_12-36-21;bateria;monitor iniciado
+>2015-06-05_12-36-21;bateria;nivel: 96 estado: Descargando tasa de refresco: 4
+>2015-06-05_12-36-29;boton;contactos pulsado
+>2015-06-05_12-36-29;configuracion;personas contacto
+>2015-06-05_12-36-36;boton;modo ducha pulsado
+>2015-06-05_12-36-46;boton;configuracion pulsado
+>2015-06-05_12-36-46;configuracion;opciones usuario
+>2015-06-05_12-36-55;app;cerrada
+>2015-06-05_12-38-42;app;pantalla de carga
+>2015-06-05_12-38-46;app;pantalla de tarificacion extra
+>2015-06-05_12-39-06;app;iniciada IMEI:354805066296819
+>2015-06-05_12-39-06;caidas;servicio iniciado
+>2015-06-05_12-39-06;zona segura;servicio iniciado
+>2015-06-05_12-39-06;bateria;reciver activo
+>2015-06-05_12-39-06;bateria;monitor iniciado
+>2015-06-05_12-39-06;bateria;nivel: 95 estado: Descargando tasa de refresco: 4
+>2015-06-05_12-39-11;app;cerrada
+>2015-06-05_13-09-33;aviso;sentado
+>2015-06-05_13-19-34;aviso;caida
+>2015-06-05_13-20-21;aviso;sentado
+

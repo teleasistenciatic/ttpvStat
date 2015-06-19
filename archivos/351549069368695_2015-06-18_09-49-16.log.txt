@@ -1,0 +1,14 @@
+>2015-06-18_09-49-16;app;pantalla de carga
+>2015-06-18_09-49-19;app;iniciada IMEI:351549069368695
+>2015-06-18_09-49-19;caidas;servicio iniciado
+>2015-06-18_09-49-19;zona segura;servicio iniciado
+>2015-06-18_09-49-19;bateria;reciver activo
+>2015-06-18_09-49-19;bateria;monitor iniciado
+>2015-06-18_09-49-20;bateria;nivel: 100 estado: Llena tasa de refresco: 4
+>2015-06-18_09-49-22;boton;tranquilidad pulsado
+>2015-06-18_09-49-22;aviso;tranquilidad
+>2015-06-18_09-49-22;SMS;enviado:[TELEASISTENCI@TIC+: Maruja Bejarano comunica que se encuentra bien a las 18/06/15:09:49:22 en posicion ( https://maps.google.com/?q=37.8917016,-4.7783388 )]
+>2015-06-18_09-49-28;boton;llamada pulsado
+>2015-06-18_09-49-28;boton;llamada llamando contacto
+>2015-06-18_09-49-50;app;cerrada
+

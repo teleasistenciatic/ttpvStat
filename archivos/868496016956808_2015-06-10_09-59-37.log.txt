@@ -8,3 +8,4 @@
 >2015-06-10_09-59-45;boton;modo ducha pulsado
 >2015-06-10_09-59-51;modo ducha;iniciado con minutos : 15
 >2015-06-10_11-09-03;app;cerrada
+

@@ -7,3 +7,4 @@
 >2015-06-08_09-41-49;bateria;nivel: 45 estado: Descargando tasa de refresco: 4
 >2015-06-08_09-41-56;boton;contactos pulsado
 >2015-06-08_09-41-57;configuracion;personas contacto
+

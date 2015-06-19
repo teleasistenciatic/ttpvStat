@@ -273,3 +273,4 @@
 >2015-06-05_11-53-22;app;pantalla de tarificacion extra
 >2015-06-05_11-54-09;app;pantalla de carga
 >2015-06-05_11-54-12;app;pantalla de tarificacion extra
+

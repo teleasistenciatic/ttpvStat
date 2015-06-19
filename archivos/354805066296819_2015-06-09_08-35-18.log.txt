@@ -1,0 +1,15 @@
+>2015-06-09_08-35-18;aviso;zona segura
+>2015-06-09_08-35-18;zona segura;ha salido zona segura
+>2015-06-09_08-44-09;aviso;zona segura
+>2015-06-09_08-44-09;zona segura;ha salido zona segura
+>2015-06-09_08-52-26;aviso;zona segura
+>2015-06-09_08-52-26;zona segura;ha salido zona segura
+>2015-06-09_08-59-11;aviso;zona segura
+>2015-06-09_08-59-11;zona segura;ha salido zona segura
+>2015-06-09_09-06-07;aviso;zona segura
+>2015-06-09_09-06-07;zona segura;ha salido zona segura
+>2015-06-09_09-12-07;aviso;zona segura
+>2015-06-09_09-12-07;zona segura;ha salido zona segura
+>2015-06-09_09-18-23;aviso;zona segura
+>2015-06-09_09-18-23;zona segura;ha salido zona segura
+

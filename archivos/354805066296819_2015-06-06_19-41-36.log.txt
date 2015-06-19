@@ -1,0 +1,7 @@
+>2015-06-06_19-41-36;aviso;zona segura
+>2015-06-06_19-41-36;zona segura;ha salido zona segura
+>2015-06-06_19-52-37;aviso;zona segura
+>2015-06-06_19-52-37;zona segura;ha salido zona segura
+>2015-06-06_20-02-40;aviso;zona segura
+>2015-06-06_20-02-40;zona segura;ha salido zona segura
+

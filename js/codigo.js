@@ -48,6 +48,8 @@ function crearGrafico(indice, datos){
 			pintaDuchaMovil(datos);
 			break;
 		case "mododuchatotal":
+		    $("#duchaTotal").append("<p>Total de modos de ducha utilizados: "+datos.total+"</p>");
+			$("#duchaTotal").append("<p>Media de modos de ducha utilizados: "+datos.media+"</p>");
 			$("#duchaTotal").append("<p>Tiempo de ducha más utilizado : "+datos.mas+" minutos </p>");	
 			pintaDuchaTotal(datos);
 			break;

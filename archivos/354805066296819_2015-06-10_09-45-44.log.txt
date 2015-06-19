@@ -1,0 +1,31 @@
+>2015-06-10_09-45-44;aviso;zona segura
+>2015-06-10_09-45-44;zona segura;ha salido zona segura
+>2015-06-10_09-54-29;aviso;zona segura
+>2015-06-10_09-54-29;zona segura;ha salido zona segura
+>2015-06-10_10-03-19;aviso;zona segura
+>2015-06-10_10-03-19;zona segura;ha salido zona segura
+>2015-06-10_10-10-38;aviso;zona segura
+>2015-06-10_10-10-38;zona segura;ha salido zona segura
+>2015-06-10_10-18-22;aviso;zona segura
+>2015-06-10_10-18-22;zona segura;ha salido zona segura
+>2015-06-10_10-27-48;aviso;zona segura
+>2015-06-10_10-27-48;zona segura;ha salido zona segura
+>2015-06-10_10-35-44;aviso;zona segura
+>2015-06-10_10-35-44;zona segura;ha salido zona segura
+>2015-06-10_10-44-18;aviso;zona segura
+>2015-06-10_10-44-18;zona segura;ha salido zona segura
+>2015-06-10_10-53-34;aviso;zona segura
+>2015-06-10_10-53-34;zona segura;ha salido zona segura
+>2015-06-10_11-01-23;aviso;zona segura
+>2015-06-10_11-01-23;zona segura;ha salido zona segura
+>2015-06-10_11-08-32;aviso;zona segura
+>2015-06-10_11-08-32;zona segura;ha salido zona segura
+>2015-06-10_11-15-39;aviso;zona segura
+>2015-06-10_11-15-39;zona segura;ha salido zona segura
+>2015-06-10_11-23-29;aviso;zona segura
+>2015-06-10_11-23-29;zona segura;ha salido zona segura
+>2015-06-10_11-31-01;aviso;zona segura
+>2015-06-10_11-31-01;zona segura;ha salido zona segura
+>2015-06-10_11-38-31;aviso;zona segura
+>2015-06-10_11-38-31;zona segura;ha salido zona segura
+

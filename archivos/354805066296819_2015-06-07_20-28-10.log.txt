@@ -1,0 +1,15 @@
+>2015-06-07_20-28-10;app;pantalla de carga
+>2015-06-07_20-28-14;app;pantalla de tarificacion extra
+>2015-06-07_20-28-19;app;iniciada IMEI:354805066296819
+>2015-06-07_20-28-19;caidas;servicio iniciado
+>2015-06-07_20-28-19;zona segura;servicio iniciado
+>2015-06-07_20-28-19;bateria;reciver activo
+>2015-06-07_20-28-19;bateria;monitor iniciado
+>2015-06-07_20-28-19;bateria;nivel: 29 estado: Descargando tasa de refresco: 4
+>2015-06-07_20-28-19;bateria;notificacion bateria baja
+>2015-06-07_20-28-24;boton;alerta pulsado
+>2015-06-07_20-28-28;aviso;alerta
+>2015-06-07_20-28-29;SMS;enviado:[TELEASISTENCI@TIC+: Paqui Wals genera aviso 07/06/15:20:28:28 en posicion ( https://maps.google.com/?q=37.6941349,-4.9342073 )]
+>2015-06-07_20-28-29;aviso;alerta
+>2015-06-07_20-28-59;app;cerrada
+

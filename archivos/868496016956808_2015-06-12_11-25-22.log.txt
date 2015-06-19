@@ -1,0 +1,23 @@
+>2015-06-12_11-25-22;aviso;caida
+>2015-06-12_11-28-50;app;pantalla de carga
+>2015-06-12_11-28-54;app;iniciada IMEI:868496016956808
+>2015-06-12_11-28-55;caidas;servicio iniciado
+>2015-06-12_11-28-55;zona segura;servicio no iniciado
+>2015-06-12_11-28-55;bateria;reciver activo
+>2015-06-12_11-28-55;bateria;monitor iniciado
+>2015-06-12_11-28-55;bateria;nivel: 33 estado: Descargando tasa de refresco: 4
+>2015-06-12_11-30-04;boton;contactos pulsado
+>2015-06-12_11-30-04;configuracion;personas contacto
+>2015-06-12_11-30-25;boton;llamada pulsado
+>2015-06-12_11-30-25;boton;llamada llamando contacto
+>2015-06-12_11-31-09;boton;modo ducha pulsado
+>2015-06-12_11-31-42;boton;tranquilidad pulsado
+>2015-06-12_11-31-42;aviso;tranquilidad
+>2015-06-12_11-31-51;boton;tranquilidad pulsado
+>2015-06-12_11-31-51;aviso;tranquilidad
+>2015-06-12_11-32-04;boton;tranquilidad pulsado
+>2015-06-12_11-32-04;aviso;tranquilidad
+>2015-06-12_11-32-10;boton;llamada pulsado
+>2015-06-12_11-32-10;boton;llamada llamando contacto
+>2015-06-12_11-32-21;app;cerrada
+

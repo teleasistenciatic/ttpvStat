@@ -1,0 +1,58 @@
+>2015-06-10_12-11-02;app;pantalla de carga
+>2015-06-10_12-11-06;app;iniciada IMEI:868496016956808
+>2015-06-10_12-11-06;caidas;servicio iniciado
+>2015-06-10_12-11-06;zona segura;servicio no iniciado
+>2015-06-10_12-11-06;bateria;reciver activo
+>2015-06-10_12-11-06;bateria;monitor iniciado
+>2015-06-10_12-11-06;bateria;nivel: 76 estado: Descargando tasa de refresco: 4
+>2015-06-10_12-11-07;boton;alerta pulsado
+>2015-06-10_12-11-08;boton;llamada pulsado
+>2015-06-10_12-11-08;boton;llamada llamando contacto
+>2015-06-10_12-11-11;aviso;alerta
+>2015-06-10_12-11-19;boton;contactos pulsado
+>2015-06-10_12-11-19;configuracion;personas contacto
+>2015-06-10_12-11-29;appSharedPreferences;contactos creados :  ,- ,_-_-
+>2015-06-10_12-11-40;appSharedPreferences;contactos creados : Felisa-646 39 51 18_-_-
+>2015-06-10_12-11-47;boton;llamada pulsado
+>2015-06-10_12-11-47;boton;llamada llamando contacto
+>2015-06-10_12-12-16;boton;llamada pulsado
+>2015-06-10_12-12-16;boton;llamada llamando contacto
+>2015-06-10_12-12-22;boton;alerta pulsado
+>2015-06-10_12-12-24;boton;alerta pulsado
+>2015-06-10_12-12-24;boton;alerta pulsado cuenta atras cancelada
+>2015-06-10_12-12-28;app;cerrada
+>2015-06-10_12-12-30;app;pantalla de carga
+>2015-06-10_12-12-33;app;iniciada IMEI:868496016956808
+>2015-06-10_12-12-33;caidas;servicio iniciado
+>2015-06-10_12-12-33;zona segura;servicio no iniciado
+>2015-06-10_12-12-33;bateria;reciver activo
+>2015-06-10_12-12-33;bateria;monitor iniciado
+>2015-06-10_12-12-33;bateria;nivel: 76 estado: Descargando tasa de refresco: 4
+>2015-06-10_12-12-34;boton;alerta pulsado
+>2015-06-10_12-12-37;boton;alerta pulsado
+>2015-06-10_12-12-37;boton;alerta pulsado cuenta atras cancelada
+>2015-06-10_12-12-46;app;cerrada
+>2015-06-10_12-21-12;aviso;sentado
+>2015-06-10_12-22-20;aviso;caida
+>2015-06-10_12-29-51;aviso;sentado
+>2015-06-10_12-39-59;aviso;sentado
+>2015-06-10_13-36-21;app;pantalla de carga
+>2015-06-10_13-36-25;app;iniciada IMEI:868496016956808
+>2015-06-10_13-36-25;caidas;servicio iniciado
+>2015-06-10_13-36-25;zona segura;servicio no iniciado
+>2015-06-10_13-36-25;bateria;reciver activo
+>2015-06-10_13-36-25;bateria;monitor iniciado
+>2015-06-10_13-36-25;bateria;nivel: 70 estado: Descargando tasa de refresco: 4
+>2015-06-10_13-36-25;boton;volver a casa pulsado
+>2015-06-10_13-36-25;boton;volver a casa con datos: 37.868158, -4.773851
+>2015-06-10_13-36-31;app;cerrada
+>2015-06-10_13-36-34;app;pantalla de carga
+>2015-06-10_13-36-37;app;iniciada IMEI:868496016956808
+>2015-06-10_13-36-37;caidas;servicio iniciado
+>2015-06-10_13-36-37;zona segura;servicio no iniciado
+>2015-06-10_13-36-37;bateria;reciver activo
+>2015-06-10_13-36-37;bateria;monitor iniciado
+>2015-06-10_13-36-37;bateria;nivel: 70 estado: Descargando tasa de refresco: 4
+>2015-06-10_13-36-41;boton;modo ducha pulsado
+>2015-06-10_13-37-12;app;cerrada
+

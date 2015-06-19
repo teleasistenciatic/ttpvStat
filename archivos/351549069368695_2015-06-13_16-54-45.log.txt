@@ -1,0 +1,12 @@
+>2015-06-13_16-54-45;aviso;zona segura
+>2015-06-13_16-54-45;aviso;zona segura
+>2015-06-13_16-54-45;aviso;zona segura
+>2015-06-13_16-54-45;zona segura;ha salido zona segura
+>2015-06-13_17-04-45;aviso;zona segura
+>2015-06-13_17-04-45;aviso;zona segura
+>2015-06-13_17-04-45;aviso;zona segura
+>2015-06-13_17-04-45;zona segura;ha salido zona segura
+>2015-06-13_17-14-45;aviso;zona segura
+>2015-06-13_17-14-45;aviso;zona segura
+>2015-06-13_17-14-45;aviso;zona segura
+>2015-06-13_17-14-45;zona segura;ha salido zona segura

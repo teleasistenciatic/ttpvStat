@@ -19,3 +19,4 @@
 >2015-06-07_12-04-37;app;cerrada
 >2015-06-07_12-04-38;aviso;alerta
 >2015-06-07_12-04-38;SMS;enviado:[TELEASISTENCI@TIC+: Juana Armenta Garcia genera aviso 07/06/15:12:04:38]
+

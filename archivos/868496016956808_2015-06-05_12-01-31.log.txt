@@ -85,3 +85,4 @@
 >2015-06-05_12-44-51;bateria;nivel: 57 estado: Descargando tasa de refresco: 4
 >2015-06-05_12-44-59;app;cerrada
 >2015-06-05_12-45-01;app;cerrada
+

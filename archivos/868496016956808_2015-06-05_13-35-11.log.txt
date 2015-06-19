@@ -10,3 +10,4 @@
 >2015-06-05_13-35-31;SMS;enviado:[TELEASISTENCI@TIC+: Juana Armenta Garcia comunica que se encuentra bien a las 05/06/15:13:35:31]
 >2015-06-05_13-35-38;boton;contactos pulsado
 >2015-06-05_13-35-38;configuracion;personas contacto
+

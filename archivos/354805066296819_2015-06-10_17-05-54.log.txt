@@ -1,0 +1,27 @@
+>2015-06-10_17-05-54;aviso;zona segura
+>2015-06-10_17-05-54;zona segura;ha salido zona segura
+>2015-06-10_17-12-51;aviso;zona segura
+>2015-06-10_17-12-51;zona segura;ha salido zona segura
+>2015-06-10_17-20-20;aviso;zona segura
+>2015-06-10_17-20-20;zona segura;ha salido zona segura
+>2015-06-10_17-28-21;aviso;zona segura
+>2015-06-10_17-28-21;zona segura;ha salido zona segura
+>2015-06-10_17-35-12;aviso;zona segura
+>2015-06-10_17-35-12;zona segura;ha salido zona segura
+>2015-06-10_17-42-23;aviso;zona segura
+>2015-06-10_17-42-23;zona segura;ha salido zona segura
+>2015-06-10_17-50-05;aviso;zona segura
+>2015-06-10_17-50-05;zona segura;ha salido zona segura
+>2015-06-10_17-57-07;aviso;zona segura
+>2015-06-10_17-57-07;zona segura;ha salido zona segura
+>2015-06-10_18-04-40;aviso;zona segura
+>2015-06-10_18-04-40;zona segura;ha salido zona segura
+>2015-06-10_18-12-57;aviso;zona segura
+>2015-06-10_18-12-57;zona segura;ha salido zona segura
+>2015-06-10_18-20-08;aviso;zona segura
+>2015-06-10_18-20-08;zona segura;ha salido zona segura
+>2015-06-10_18-28-46;aviso;zona segura
+>2015-06-10_18-28-46;zona segura;ha salido zona segura
+>2015-06-10_18-37-22;aviso;zona segura
+>2015-06-10_18-37-22;zona segura;ha salido zona segura
+

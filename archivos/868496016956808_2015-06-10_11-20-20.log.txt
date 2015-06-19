@@ -1,0 +1,47 @@
+>2015-06-10_11-20-20;app;pantalla de carga
+>2015-06-10_11-20-23;app;iniciada IMEI:868496016956808
+>2015-06-10_11-20-24;caidas;servicio iniciado
+>2015-06-10_11-20-24;zona segura;servicio no iniciado
+>2015-06-10_11-20-24;bateria;reciver activo
+>2015-06-10_11-20-24;bateria;monitor iniciado
+>2015-06-10_11-20-24;bateria;nivel: 92 estado: Descargando tasa de refresco: 4
+>2015-06-10_11-20-39;boton;contactos pulsado
+>2015-06-10_11-20-39;configuracion;personas contacto
+>2015-06-10_11-20-47;boton;alerta pulsado
+>2015-06-10_11-20-49;boton;modo ducha pulsado
+>2015-06-10_11-20-51;aviso;alerta
+>2015-06-10_11-20-51;SMS;enviado:[TELEASISTENCI@TIC+: Juana Armenta Garcia genera aviso 10/06/15:11:20:51]
+>2015-06-10_11-21-01;boton;modo ducha pulsado
+>2015-06-10_11-21-40;boton;tranquilidad pulsado
+>2015-06-10_11-21-40;aviso;tranquilidad
+>2015-06-10_11-21-40;SMS;enviado:[TELEASISTENCI@TIC+: Juana Armenta Garcia comunica que se encuentra bien a las 10/06/15:11:21:40]
+>2015-06-10_11-22-14;boton;llamada pulsado
+>2015-06-10_11-22-14;boton;llamada llamando contacto
+>2015-06-10_11-22-28;boton;alerta pulsado
+>2015-06-10_11-22-32;boton;alerta pulsado
+>2015-06-10_11-22-32;boton;alerta pulsado cuenta atras cancelada
+>2015-06-10_11-22-38;boton;volver a casa pulsado
+>2015-06-10_11-22-38;boton;volver a casa con datos: 37.868158, -4.773851
+>2015-06-10_11-22-56;app;cerrada
+>2015-06-10_11-22-58;app;pantalla de carga
+>2015-06-10_11-23-01;app;iniciada IMEI:868496016956808
+>2015-06-10_11-23-01;caidas;servicio iniciado
+>2015-06-10_11-23-01;zona segura;servicio no iniciado
+>2015-06-10_11-23-01;bateria;reciver activo
+>2015-06-10_11-23-01;bateria;monitor iniciado
+>2015-06-10_11-23-01;bateria;nivel: 91 estado: Descargando tasa de refresco: 4
+>2015-06-10_11-23-04;boton;modo ducha pulsado
+>2015-06-10_11-23-05;modo ducha;iniciado con minutos : 15
+>2015-06-10_11-23-11;app;cerrada
+>2015-06-10_11-31-43;app;pantalla de carga
+>2015-06-10_11-31-47;app;iniciada IMEI:868496016956808
+>2015-06-10_11-31-47;caidas;servicio iniciado
+>2015-06-10_11-31-47;zona segura;servicio no iniciado
+>2015-06-10_11-31-47;bateria;reciver activo
+>2015-06-10_11-31-47;bateria;monitor iniciado
+>2015-06-10_11-31-47;bateria;nivel: 86 estado: Descargando tasa de refresco: 4
+>2015-06-10_11-31-52;boton;configuracion pulsado
+>2015-06-10_11-31-52;configuracion;opciones usuario
+>2015-06-10_11-31-57;menu;boton salir pulsado
+>2015-06-10_11-31-58;app;cerrada
+

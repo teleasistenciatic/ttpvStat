@@ -19,3 +19,4 @@
 >2015-06-07_22-31-08;app;cerrada
 >2015-06-07_22-43-27;aviso;ducha
 >2015-06-07_22-43-27;SMS;enviado:[TELEASISTENCI@TIC+: Juana Armenta Garcia genera aviso de ducha 07/06/15:22:43:27]
+

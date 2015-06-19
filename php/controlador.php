@@ -77,6 +77,8 @@ switch($accion){
 		$cuanto = max($contador);
 		$indice = array_search($cuanto,$contador); //averiguar cual es el más utilizado
 		
+		$cantidadtotal = array_sum($contador); //total de uso del modo ducha.
+				
 		$total = array(); 
 		foreach($contador as $key => $valor){
 			$objeto["tipo"] = $key;
@@ -86,6 +88,8 @@ switch($accion){
 		$vector = array();
 		$vector["moviles"] = $total;
 		$vector["mas"] = $indice;
+		$vector["total"] = $cantidadtotal;
+		$vector["media"] = $cantidadtotal / count($mododucha);
 		echo json_encode( $vector );
 		break;
 		

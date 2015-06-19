@@ -88,4 +88,61 @@
 >2015-06-11_11-16-42;boton;modo ducha pulsado
 >2015-06-11_11-16-44;modo ducha;iniciado con minutos : 60
 >2015-06-11_11-16-47;app;cerrada
+>2015-06-11_11-31-10;app;pantalla de carga
+>2015-06-11_11-31-13;app;iniciada IMEI:351549069368695
+>2015-06-11_11-31-13;caidas;servicio iniciado
+>2015-06-11_11-31-13;zona segura;servicio iniciado
+>2015-06-11_11-31-13;bateria;reciver activo
+>2015-06-11_11-31-13;bateria;monitor iniciado
+>2015-06-11_11-31-13;bateria;nivel: 63 estado: Descargando tasa de refresco: 4
+>2015-06-11_11-33-45;boton;volver a casa pulsado
+>2015-06-11_11-33-45;boton;volver a casa con datos: 37.89122396963205, -4.778537414968014
+>2015-06-11_11-34-13;app;pantalla de carga
+>2015-06-11_11-34-16;app;iniciada IMEI:351549069368695
+>2015-06-11_11-34-16;caidas;servicio iniciado
+>2015-06-11_11-34-16;zona segura;servicio iniciado
+>2015-06-11_11-34-16;bateria;reciver activo
+>2015-06-11_11-34-16;bateria;monitor iniciado
+>2015-06-11_11-34-16;bateria;nivel: 63 estado: Descargando tasa de refresco: 4
+>2015-06-11_14-49-15;aviso;caida
+>2015-06-11_15-19-43;aviso;sentado
+>2015-06-11_20-52-57;boton;alerta pulsado
+>2015-06-11_20-53-00;boton;alerta pulsado
+>2015-06-11_20-53-00;boton;alerta pulsado cuenta atras cancelada
+>2015-06-11_20-53-29;boton;tranquilidad pulsado
+>2015-06-11_20-53-29;aviso;tranquilidad
+>2015-06-11_20-53-29;SMS;enviado:[TELEASISTENCI@TIC+: Maruja Bejarano comunica que se encuentra bien a las 11/06/15:20:53:29 en posicion ( https://maps.google.com/?q=37.8871887,-4.7769062 )]
+>2015-06-11_20-53-41;boton;contactos pulsado
+>2015-06-11_20-53-41;configuracion;personas contacto
+>2015-06-11_20-54-33;boton;volver a casa pulsado
+>2015-06-11_20-54-33;boton;volver a casa con datos: 37.89122396963205, -4.778537414968014
+>2015-06-11_20-55-04;boton;modo ducha pulsado
+>2015-06-11_20-55-43;modo ducha;iniciado con minutos : 45
+>2015-06-11_20-55-52;boton;configuracion pulsado
+>2015-06-11_20-55-52;configuracion;opciones usuario
+>2015-06-12_13-09-43;aviso;sentado
+>2015-06-12_13-21-27;aviso;correr
+>2015-06-12_15-08-38;aviso;caida
+>2015-06-12_18-14-03;aviso;sentado
+>2015-06-12_20-43-45;aviso;sentado
+>2015-06-13_11-52-55;aviso;sentado
+>2015-06-13_13-11-22;aviso;golpe
+>2015-06-13_20-44-09;aviso;caida
+>2015-06-13_20-44-25;aviso;sentado
+>2015-06-13_21-03-15;aviso;golpe
+>2015-06-14_10-20-48;aviso;caida
+>2015-06-14_11-12-27;aviso;sentado
+>2015-06-14_11-38-51;aviso;caida
+>2015-06-14_13-41-44;aviso;sentado
+>2015-06-14_14-03-34;aviso;sentado
+>2015-06-14_14-06-30;aviso;sentado
+>2015-06-14_17-55-16;aviso;sentado
+>2015-06-15_11-12-18;aviso;sentado
+>2015-06-15_11-40-04;aviso;sentado
+>2015-06-15_11-56-33;aviso;sentado
+>2015-06-15_12-01-33;aviso;sentado
+>2015-06-15_13-17-23;aviso;sentado
+>2015-06-15_14-21-30;aviso;sentado
+>2015-06-15_14-29-29;aviso;sentado
+>2015-06-16_11-53-05;aviso;sentado
 

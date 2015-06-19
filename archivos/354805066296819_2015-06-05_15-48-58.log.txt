@@ -1,0 +1,13 @@
+>2015-06-05_15-48-58;app;pantalla de carga
+>2015-06-05_15-49-01;app;pantalla de tarificacion extra
+>2015-06-05_15-51-01;app;pantalla de carga
+>2015-06-05_15-51-04;app;pantalla de tarificacion extra
+>2015-06-05_15-51-07;app;iniciada IMEI:354805066296819
+>2015-06-05_15-51-08;caidas;servicio iniciado
+>2015-06-05_15-51-08;zona segura;servicio iniciado
+>2015-06-05_15-51-08;bateria;reciver activo
+>2015-06-05_15-51-08;bateria;monitor iniciado
+>2015-06-05_15-51-08;bateria;nivel: 87 estado: Descargando tasa de refresco: 4
+>2015-06-05_15-51-24;app;cerrada
+>2015-06-05_15-51-48;aviso;correr
+

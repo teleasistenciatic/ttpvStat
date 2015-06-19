@@ -1,0 +1,12 @@
+>2015-06-15_15-05-13;app;pantalla de carga
+>2015-06-15_15-05-16;app;iniciada IMEI:868496016956808
+>2015-06-15_15-05-17;caidas;servicio iniciado
+>2015-06-15_15-05-17;zona segura;servicio no iniciado
+>2015-06-15_15-05-17;bateria;reciver activo
+>2015-06-15_15-05-17;bateria;monitor iniciado
+>2015-06-15_15-05-17;bateria;nivel: 88 estado: Descargando tasa de refresco: 4
+>2015-06-15_15-05-26;boton;tranquilidad pulsado
+>2015-06-15_15-05-26;aviso;tranquilidad
+>2015-06-15_15-05-39;boton;volver a casa pulsado
+>2015-06-15_15-05-39;boton;volver a casa con datos: 37.868158, -4.773851
+

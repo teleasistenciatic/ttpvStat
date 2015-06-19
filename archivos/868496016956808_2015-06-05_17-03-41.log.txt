@@ -14,6 +14,7 @@
 >2015-06-05_17-20-10;boton;tranquilidad pulsado
 >2015-06-05_17-20-10;aviso;tranquilidad
 >2015-06-05_17-20-10;SMS;enviado:[TELEASISTENCI@TIC+: Juana Armenta Garcia comunica que se encuentra bien a las 05/06/15:17:20:10]
+>2015-06-05_17-20-11;aviso;tranquilidad
 >2015-06-05_17-20-28;boton;contactos pulsado
 >2015-06-05_17-20-28;configuracion;personas contacto
 >2015-06-05_17-20-42;appSharedPreferences;contactos creados :  ,- ,_-_-
@@ -39,3 +40,4 @@
 >2015-06-07_00-13-13;boton;volver a casa pulsado
 >2015-06-07_00-13-13;boton;volver a casa con datos: 37.868158, -4.773851
 >2015-06-07_00-13-25;app;cerrada
+

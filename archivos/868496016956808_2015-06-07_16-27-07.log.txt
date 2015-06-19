@@ -24,3 +24,4 @@
 >2015-06-07_16-28-18;boton;volver a casa pulsado
 >2015-06-07_16-28-18;boton;volver a casa con datos: 37.868158, -4.773851
 >2015-06-07_16-28-54;app;cerrada
+

@@ -1,0 +1,6 @@
+>2015-06-07_18-23-25;aviso;caida
+>2015-06-07_18-50-37;aviso;sentado
+>2015-06-07_18-55-01;aviso;caida
+>2015-06-07_19-12-21;aviso;sentado
+>2015-06-07_19-12-57;aviso;sentado
+

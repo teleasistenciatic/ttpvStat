@@ -1,0 +1,14 @@
+>2015-06-07_11-21-31;app;pantalla de carga
+>2015-06-07_11-21-35;app;pantalla de tarificacion extra
+>2015-06-07_11-21-36;app;iniciada IMEI:354805066296819
+>2015-06-07_11-21-37;caidas;servicio iniciado
+>2015-06-07_11-21-37;zona segura;servicio iniciado
+>2015-06-07_11-21-37;bateria;reciver activo
+>2015-06-07_11-21-37;bateria;monitor iniciado
+>2015-06-07_11-21-37;bateria;nivel: 84 estado: Descargando tasa de refresco: 4
+>2015-06-07_11-21-39;boton;configuracion pulsado
+>2015-06-07_11-21-40;configuracion;opciones usuario
+>2015-06-07_11-21-43;configuracion;personas contacto
+>2015-06-07_11-21-53;appSharedPreferences;contactos creados : Teleasistencia TIC-686 87 07 55_-_-
+>2015-06-07_11-21-58;app;cerrada
+
